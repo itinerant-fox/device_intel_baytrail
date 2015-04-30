@@ -1,0 +1,235 @@
+
+<3>[    0.277792] i2c i2c-1: Failed to register i2c client HIMX2056:01 at 0x24 (-16)
+<3>[    0.277831] i2c i2c-1: failed to add I2C device HIMX2056:01 from ACPI
+
+HM2056 Himax Imaging Camera SOC
+
+
+The HM2056 is a compact 2.0MP UXGA System-on-Chip CMOS Image Sensor that features the BrightSense2TM high sensitivity 1.75µ pixel integrated with an advance Image Processing Pipeline (IPP) to deliver excellent still and video quality under broad lighting conditions.
+
+The HM2056 IPP features ClearViewTM Optical Restoration Engine that restores the clarity of the image utilizing the characteristics of the lens. The ClearViewTM is supported by an advanced calibration tool on Himax Imaging’s software system that can be quickly adapted to a wide variety of lenses.
+
+The sensor supports MIPI-CSI2 interface to maximize system design flexibility. The MIPI interface is compliant to industry standard and compatible with leading processor chips. All sensor parameters are controlled through a 2-wire serial interface.
+ 
+Image Sensor SOC Features
+
+    High sensitivity 1/5” optical format 2.0MP UXGA sensor SOC operating up to 15 frames per second
+    720p HD video readout up to 30 frames per second
+    Compliant 1-lane MIPI CSI2 supporting up to 576Mbps
+    ClearViewTM Optical Restoration Engine (ORE) improves optical performance and clarity
+    Image Processing Pipeline with dynamic lowlight and color temperature based adjustment
+    Automatic Functions for exposure / gain , white balance and frame rate control
+    Arbitrary down-scaler from SVGA
+    Available in CSP and Bare Die (RW) package option
+    Fits in compact 6.5 x 6.5 mm2 camera modules
+
+ 
+Image Sensor SOC Specifications
+Part Number 	HM2056-AWA (CSP), HM2056-AGA (RW)
+Color 	RGGB
+Array Diagonal 	3549 µm
+Resolution 	UXGA (1600 x 1200)
+Output Format 	RAW, YUV, RGB565, RGB555, RGB444
+Optical Format 	1/5″
+Pixel Size 	1.75µm
+Frame Rate 	15FPS 288MHz (MIPI 1lane)
+Sensitivity (FD @ 530nm) 	1100 mV / Lux-sec
+SNRmax 	36dB
+CRAmax 	25.5º non-linear
+AVDD / DVDD / IOVDD (typ.) 	2.8V / 1.5V / 1.8, 2.8V
+Power Consumption 	Active: 220 mW (MIPI @ 15FPS), Standby: <25 µW
+Temperature 	Operating: -20° to 70°C, Storage: -40° to 85°C
+Package 	CSP, RW
+
+
+http://wenku.baidu.com/view/cfa1d1a7360cba1aa911da46.html
+
+HM2057
+http://wenku.baidu.com/view/d68ddbec19e8b8f67c1cb916.html?re=view
+
+
+Enable Camera Drivers MIPI CSI2
+
+
+<6>[    0.356099] AVX instructions are not detected.
+Disable AVX
+
+
+
+
+<4>[    0.371399] ACPI Exception: AE_ERROR, Returned by Handler for [GeneralPurposeIo] (20150204/evregion-297)
+<4>[    0.371593] ACPI Error: Method parse/execution failed [\_SB_.ADP1._PSR] (Node ffff8800788a08b0), AE_ERROR (20150204/psparse-536)
+<4>[    0.371850] ACPI Exception: AE_ERROR, Error reading AC Adapter state (20150204/ac-131)
+
+
+
+
+<3>[    1.442826] i2c_designware 80860F41:04: controller timed out
+<6>[    0.427702] axp20x i2c-INT33F4:00: AXP20x variant AXP288 found
+<3>[    1.446966] axp20x i2c-INT33F4:00: Failed to set masks in 0x40: -110
+<3>[    1.450456] axp20x i2c-INT33F4:00: failed to add irq chip: -110
+<4>[    1.458286] axp20x: probe of i2c-INT33F4:00 failed with error -110
+
+	[PATCH V2] i2c-designware: Mask all interrupts during i2c controller enable
+	
+https://lkml.org/lkml/2014/4/10/655
+diff --git a/drivers/i2c/busses/i2c-designware-core.c b/drivers/i2c/busses/i2c-designware-core.c
+index 14c4b30..71a3fa9 100644
+--- a/drivers/i2c/busses/i2c-designware-core.c
++++ b/drivers/i2c/busses/i2c-designware-core.c
+@@ -417,6 +417,9 @@ static void i2c_dw_xfer_init(struct dw_i2c_dev *dev)
+ 	 */
+ 	dw_writel(dev, msgs[dev->msg_write_idx].addr | ic_tar, DW_IC_TAR);
+ 
++	/* disable interrupts */
++	i2c_dw_disable_int(dev);
++
+ 	/* Enable the adapter */
+ 	__i2c_dw_enable(dev, true);
+ 
+-- 
+1.7.9.5
+
+
+
+
+
+Accelerometer Sensor
+http://processors.wiki.ti.com/index.php/Android_Sensor_PortingGuide
+http://mind.be/content/Presentation_Android-sensors-101.pdf
+
+
+
+
+
+<6>[    1.816183] xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x100 quirks 0x00009810
+<7>[    1.819298] xhci_hcd 0000:00:14.0: cache line size of 64 is not supported
+
+
+
+<4>[    3.481968] ACPI Warning: Could not enable fixed event - RealTimeClock (4) (20150204/evxface-654)
+<7>[    3.484376] rtc (null): alarm rollover: day
+<7>[    3.484470] rtc rtc0: rtc_cmos: dev (254:0)
+<6>[    3.484487] rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+<7>[    3.486809] rtc_cmos 00:00: IRQ 8 is already in use
+<4>[    3.486873] rtc_cmos: probe of 00:00 failed with error -22
+
+
+
+
+<4>[    3.503847] Driver 'mmcblk' needs updating - please use bus_type methods
+
+<6>[    3.509806] sdhci: Secure Digital Host Controller Interface driver
+<6>[    3.515708] sdhci: Copyright(c) Pierre Ossman
+<6>[    3.521886] sdhci-acpi 80860F14:00: No vmmc regulator found
+<6>[    3.526347] sdhci-acpi 80860F14:00: No vqmmc regulator found
+<6>[    3.536128] mmc0: SDHCI controller on ACPI [80860F14:00] using ADMA
+<6>[    3.541697] sdhci-acpi INT33BB:00: No vmmc regulator found
+<6>[    3.545979] sdhci-acpi INT33BB:00: No vqmmc regulator found
+<6>[    3.557096] mmc1: SDHCI controller on ACPI [INT33BB:00] using ADMA
+<6>[    3.564463] sdhci-acpi 80860F14:02: No vmmc regulator found
+<6>[    3.571952] sdhci-acpi 80860F14:02: No vqmmc regulator found
+<6>[    3.585082] mmc2: SDHCI controller on ACPI [80860F14:02] using ADMA
+
+
+<3>[    3.763077] /mnt/Workspace/work/android-x86/kernel/drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+
+
+
+<4>[    3.644799] PCCT header not found.
+<6>[    3.651570] oprofile: using NMI interrupt.
+<6>[    3.656769] GACT probability NOT on
+
+
+
+
+<6>[    3.715037] mmc0: MAN_BKOPS_EN bit is not set
+
+
+
+
+
+
+
+<6>[    4.582050] scsi host2: usb-storage 1-1.4:1.0
+<3>[    4.618003] EXT3-fs (mmcblk0rpmb): error: unable to read superblock
+<3>[    4.627029] EXT2-fs (mmcblk0rpmb): error: unable to read superblock
+<3>[    4.635732] EXT4-fs (mmcblk0rpmb): unable to read superblock
+<3>[    4.644435] SQUASHFS error: squashfs_read_data failed to read block 0x0
+<3>[    4.653436] squashfs: SQUASHFS error: unable to read squashfs_super_block
+<3>[    4.662644] FAT-fs (mmcblk0rpmb): unable to read boot sector
+<3>[    4.671722] FAT-fs (mmcblk0rpmb): unable to read boot sector
+<4>[    4.680707] isofs_fill_super: bread failed, dev=mmcblk0rpmb, iso_blknum=16, block=32
+<3>[    4.690481] VFS: could not find a valid V7 on mmcblk0rpmb.
+<3>[    4.706345] blk_update_request: I/O error, dev mmcblk0rpmb, sector 0
+<3>[    4.772129] VFS: could not find a valid V7 on mmcblk1.
+<3>[    4.847011] VFS: could not find a valid V7 on mmcblk1p1.]
+
+
+
+
+
+<3>[    7.101635] EXT3-fs (loop0): error: couldn't mount because of unsupported optional features (40)
+<3>[    7.117551] EXT2-fs (loop0): error: couldn't mount because of unsupported optional features (40)
+<6>[    7.162535] EXT4-fs (loop0): mounted filesystem with ordered data mode. Opts: (null)
+
+
+
+
+<11>[  156.320737] init: /dev/hw_random not found
+
+
+
+<6>[  163.862113] input: Android Power Button as /devices/virtual/input/input9
+
+
+
+<11>[  164.060267] healthd: No charger supplies found
+<12>[  164.068898] healthd: BatteryHealthPath not found
+<12>[  164.077567] healthd: BatteryTemperaturePath not found
+
+
+
+
+
+
+
+<4>[  323.228140] RTL871X: rtw_set_802_11_connect(wlan0)  fw_state=0x00000008
+<4>[  323.238218] RTL871X: SetHwReg(wlan0) variable(76) not defined!
+<4>[  330.730607] RTL871X: nolinked power save enter
+<4>[  330.987347] RTL871X: nolinked power save leave
+<4>[  331.196257] RTL871X: rtw_set_802_11_connect(wlan0)  fw_state=0x00000008
+<4>[  331.203997] RTL871X: SetHwReg(wlan0) variable(76) not defined!
+<4>[  331.313018] RTL871X: start auth
+<4>[  331.316358] RTL871X: auth success, start assoc
+<4>[  331.319968] RTL871X: assoc success
+<4>[  331.333685] RTL871X: send eapol packet
+<4>[  332.321224] RTL871X: send eapol packet
+<4>[  333.331117] RTL871X: send eapol packet
+<4>[  334.342356] RTL871X: send eapol packet
+<4>[  335.352526] RTL871X: sta recv deauth reason code(15) sta:00:1b:da:33:7a:9f, ignore = 0
+<6>[  335.369527] cfg80211: Calling CRDA to update world regulatory domain
+<4>[  339.005662] RTL871X: nolinked power save enter
+<4>[  344.462384] RTL871X: nolinked power save leave
+
+
+http://blog.linuxconsulting.ro/2010/04/porting-wifi-drivers-to-android.html
+
+
+
+
+You are using the old character drivers for RTC:
+Quote:	
+# Conflicting RTC option has been selected, check GEN_RTC and RTC
+CONFIG_RTC_HCTOSYS=y
+CONFIG_RTC_HCTOSYS_DEVICE="rtc0"	
+
+You have selected "Enhanced Real Time Clock support" or "Generic RTC emulation" in Device Drivers->Character devices.
+You may want to switch to new drivers: deselect the two options above and select <*> Real Time Clock in the "Device Drivers" section, switch to that category and modularize/include everything (you may want to leave out "RTC UIE emulation on dev interface" and "Test driver/device". Recompile and your problem should be solved :wink:
+
+Hope this helps!
+
+
+
+
+

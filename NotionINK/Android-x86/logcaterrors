@@ -1,0 +1,435 @@
+
+04-23 18:40:38.366  2034  2034 D Camera_Factory: CameraFactory::CameraFactory
+04-23 18:40:38.366  2034  2034 D Camera_Factory: CameraFactory::parseConfig: configFile = /etc/camera.cfg
+04-23 18:40:38.367  2034  2034 D Camera_Factory: /etc/camera.cfg not found, using camera configuration defaults
+04-23 18:40:38.367  2034  2034 I CameraService: Loaded "Camera Module" camera module
+04-23 18:40:38.367  2034  2034 D Camera_Factory: CameraFactory::get_number_of_cameras
+04-23 18:40:38.367  2034  2034 D Camera_Factory: CameraFactory::getCameraNum: 0
+04-23 18:40:38.369  2034  2034 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+04-23 18:40:38.371  2034  2034 I AudioPolicyManager: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+04-23 18:40:38.385  2034  2034 E audio_hw_primary: Unable to open the mixer, aborting.
+04-23 18:40:38.385  2034  2034 I AudioFlinger: loadHwModule() Loaded primary audio interface from Grouper audio HW HAL (audio) handle 1
+04-23 18:40:38.386  2034  2034 I AudioFlinger: HAL output buffer size 512 frames, normal sink buffer size 1024 frames
+04-23 18:40:38.410  2034  2034 I AudioMixer: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+04-23 18:40:38.411  2034  2034 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+
+
+
+
+
+
+04-23 18:40:46.456  2039  2039 E memtrack: Couldn't load memtrack module (No such file or directory)
+04-23 18:40:46.456  2039  2039 E android.os.Debug: failed to load memtrack module: -2
+
+
+
+
+04-23 18:41:08.430  2034  2034 I AudioFlinger: Using module 1 has the primary audio interface
+04-23 18:41:08.431  2034  2420 I AudioFlinger: AudioFlinger's thread 0xf58a4000 ready to run
+04-23 18:41:08.432  2026  2059 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=1000 => granted (872 us)
+04-23 18:41:08.439  2034  2421 I AudioFlinger: AudioFlinger's thread 0xf593a000 ready to run
+04-23 18:41:08.446  2034  2034 I audio_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+04-23 18:41:08.446  2034  2034 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 4
+04-23 18:41:08.447  2034  2034 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 5
+04-23 18:41:08.448  2034  2034 E SoundTriggerHwService: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+
+
+
+
+
+
+
+04-23 18:41:08.485  2325  2325 I InputManager: Starting input manager
+04-23 18:41:08.488  2325  2424 D EventHub: No input device configuration file found for device 'Android Power Button'.
+
+
+
+
+04-23 18:41:08.677  2325  2424 D EventHub: No input device configuration file found for device 'FTSC1000:00 2808:5059'.
+04-23 18:41:08.677  2325  2424 I EventHub: New device: id=2, fd=80, path='/dev/input/event7', name='FTSC1000:00 2808:5059', classes=0x14, configuration='', keyLayout='', keyCharacterMap='', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+04-23 18:41:08.677  2325  2424 E EventHub: could not get driver version for /dev/input/mouse1, Not a typewriter
+04-23 18:41:08.689  2325  2424 D EventHub: No input device configuration file found for device 'Lid Switch'.
+04-23 18:41:08.690  2325  2424 I EventHub: New device: id=3, fd=81, path='/dev/input/event0', name='Lid Switch', classes=0x80, configuration='', keyLayout='', keyCharacterMap='', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+04-23 18:41:08.690  2325  2424 D EventHub: No input device configuration file found for device 'Video Bus'.
+04-23 18:41:08.696  2325  2424 W EventHub: Unable to disable kernel key repeat for /dev/input/event3: Function not implemented
+04-23 18:41:08.696  2325  2424 I EventHub: New device: id=4, fd=86, path='/dev/input/event3', name='Video Bus', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+04-23 18:41:08.697  2325  2424 D EventHub: No input device configuration file found for device 'gpio-keys'.
+04-23 18:41:08.703  2325  2424 W EventHub: Unable to disable kernel key repeat for /dev/input/event6: Function not implemented
+04-23 18:41:08.703  2325  2424 I EventHub: New device: id=5, fd=87, path='/dev/input/event6', name='gpio-keys', classes=0x81, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+04-23 18:41:08.703  2325  2424 D EventHub: No input device configuration file found for device 'gpio-keys'.
+04-23 18:41:08.709  2325  2424 I EventHub: New device: id=6, fd=88, path='/dev/input/event5', name='gpio-keys', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+04-23 18:41:08.709  2325  2424 D EventHub: No input device configuration file found for device 'PC Speaker'.
+04-23 18:41:08.718  2325  2424 E EventHub: could not get driver version for /dev/input/mice, Not a typewriter
+04-23 18:41:08.742  2325  2424 E EventHub: could not get driver version for /dev/input/mouse0, Not a typewriter
+04-23 18:41:08.752  2325  2424 D EventHub: No input device configuration file found for device 'HID 1017:1006'.
+04-23 18:41:08.763  2325  2424 W EventHub: Unable to disable kernel key repeat for /dev/input/event2: Function not implemented
+04-23 18:41:08.763  2325  2424 I EventHub: New device: id=8, fd=89, path='/dev/input/event2', name='HID 1017:1006', classes=0x80000129, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+04-23 18:41:08.764  2325  2424 D EventHub: No input device configuration file found for device 'HID 1017:1006'.
+04-23 18:41:08.773  2325  2424 I EventHub: New device: id=9, fd=90, path='/dev/input/event1', name='HID 1017:1006', classes=0x80000003, configuration='', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, wakeMechanism=EPOLLWAKEUP, usingClockIoctl=true
+
+
+
+
+
+04-23 18:41:08.817  2325  2424 I InputReader:   Touch device 'FTSC1000:00 2808:5059' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+
+
+
+
+
+04-23 18:41:20.272  2034  2811 E WVMExtractor: Failed to open libwvm.so: dlopen failed: library "libwvm.so" not found
+
+
+
+
+
+04-23 18:41:21.465  2325  2350 D Sensors : int sensors_poll_context_t::activate(int, int): enable sensor 0
+04-23 18:41:21.465  2325  2350 D Sensors : >>accel_3d enabled: 1
+04-23 18:41:21.465  2325  2350 D Sensors : >>discover accel_3d
+04-23 18:41:21.465  2325  2350 E Sensors : Failed to find device accel_3d
+04-23 18:41:21.465  2325  2350 E Sensors : accel_3d not found, retry left: 10
+04-23 18:41:24.467  2325  2350 E Sensors : Failed to find device accel_3d
+04-23 18:41:24.467  2325  2350 E Sensors : accel_3d not found, retry left: 7
+04-23 18:41:25.468  2325  2350 E Sensors : Failed to find device accel_3d
+04-23 18:41:25.468  2325  2350 E Sensors : accel_3d not found, retry left: 6
+04-23 18:41:26.469  2325  2350 E Sensors : Failed to find device accel_3d
+04-23 18:41:26.469  2325  2350 E Sensors : accel_3d not found, retry left: 5
+04-23 18:41:27.469  2325  2350 E Sensors : Failed to find device accel_3d
+04-23 18:41:27.469  2325  2350 E Sensors : accel_3d not found, retry left: 4
+04-23 18:41:28.470  2325  2350 E Sensors : Failed to find device accel_3d
+04-23 18:41:28.470  2325  2350 E Sensors : accel_3d not found, retry left: 3
+04-23 18:41:29.471  2325  2350 E Sensors : Failed to find device accel_3d
+04-23 18:41:29.471  2325  2350 E Sensors : accel_3d not found, retry left: 2
+04-23 18:41:30.472  2325  2350 E Sensors : Failed to find device accel_3d
+04-23 18:41:30.472  2325  2350 E Sensors : accel_3d not found, retry left: 1
+04-23 18:41:31.472  2325  2350 E Sensors : discover failed: accel_3d
+04-23 18:41:31.473  2325  2350 E SensorService: Error activating sensor 0 (Operation not permitted)
+
+
+
+04-23 18:41:32.109  2325  2354 D BluetoothManagerService: Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@27e14581:true
+04-23 18:41:32.110  3221  3221 D BluetoothAdapterState: make
+04-23 18:41:32.112  3221  3221 I bluedroid: init
+04-23 18:41:32.112  3221  3283 I BluetoothAdapterState: Entering OffState
+04-23 18:41:32.125  3221  3221 E bt-btif : btif_config_get(L190): assert failed: section && *section && key && *key && name && *name && bytes && type
+04-23 18:41:32.149  3221  3221 I bte_conf: bte_load_conf attempt to load stack conf from /etc/bluetooth/bt_stack.conf
+04-23 18:41:32.150  3221  3221 I bte_conf: bte_load_ble_conf attempt to load ble stack conf from /etc/bluetooth/ble_stack.conf
+04-23 18:41:32.150  3221  3221 E bt_osi_config: config_new unable to open file '/etc/bluetooth/ble_stack.conf': No such file or directory
+04-23 18:41:32.150  3221  3221 I bte_conf: bte_load_ble_conf file >/etc/bluetooth/ble_stack.conf< not found
+04-23 18:41:32.151  3221  3221 I bluedroid: get_profile_interface socket
+04-23 18:41:32.151  3221  3221 I bluedroid: get_profile_interface map_client
+
+
+
+
+
+04-23 18:42:32.324  2325  2515 W AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by client
+
+
+
+04-23 18:42:32.326  2325  2994 E WifiService: Invoking mWifiStateMachine.setWifiEnabled
+04-23 18:42:32.331  2325  2509 W WifiHW  : can not find link of /sys/class/net/wlan0/device/driver/module
+04-23 18:42:32.334  2034  2307 E audio_hw_primary: no pcm card found!
+04-23 18:42:32.334  2325  2509 E WifiStateMachine: Failed to reload STA firmware java.lang.IllegalArgumentException: command '10 softap fwreload wlan0 STA' failed with '501 10 SoftAP command has failed'
+04-23 18:42:32.339  2029  2293 D CommandListener: Setting iface cfg
+04-23 18:42:32.339  2029  2293 D CommandListener: Trying to bring down wlan0
+04-23 18:42:32.340  2029  2293 D CommandListener: Clearing all IP addresses on wlan0
+04-23 18:42:32.344  2325  2509 E WifiMonitor: killSupplicant p2pfalse init.svc.wpa_supplicant=unknown init.svc.p2p_supplicant=unknown
+
+
+
+
+04-23 18:42:32.495  3572  3572 I wpa_supplicant: rfkill: Cannot open RFKILL control device
+04-23 18:42:32.495  3572  3572 D wpa_supplicant: nl80211: RFKILL status not available
+04-23 18:42:32.496  3572  3572 D wpa_supplicant: nl80211: Supported cipher 00-0f-ac:1
+
+
+
+
+04-23 18:42:36.215  2325  2515 W AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by client
+
+
+
+04-23 18:42:36.215  2325  2516 D WifiService: setWifiEnabled: false pid=2693, uid=10013
+04-23 18:42:36.215  2325  2516 E WifiService: Invoking mWifiStateMachine.setWifiEnabled
+04-23 18:42:36.217  2325  2351 D SettingsProvider: User 0 external modification to /data/data/com.android.providers.settings/databases/settings.db; event=2
+04-23 18:42:36.217  2325  2351 D SettingsProvider: User 0 updating our caches for /data/data/com.android.providers.settings/databases/settings.db
+04-23 18:42:36.222  3572  3572 D wpa_supplicant: wlan0: Control interface command 'DRIVER WLS_BATCHING GET'
+04-23 18:42:36.223  2325  2509 E WifiStateMachine: Unexpected BatchedScanResults :OK
+04-23 18:42:36.223  3572  3572 D wpa_supplicant: wlan0: Control interface command 'DRIVER WLS_BATCHING STOP'
+04-23 18:42:36.224  2325  2325 D WifiScanningService: SCAN_AVAILABLE : 1
+04-23 18:42:36.224  2325  2325 D RttService: SCAN_AVAILABLE : 1
+04-23 18:42:36.224  2325  2528 D WifiScanningService: DefaultState got{ when=0 what=160007 target=com.android.internal.util.StateMachine$SmHandler }
+04-23 18:42:36.225  2325  2529 D RttService: EnabledState got{ when=-1ms what=160513 target=com.android.internal.util.StateMachine$SmHandler }
+04-23 18:42:36.225  2029  2293 D CommandListener: Clearing all IP addresses on wlan0
+04-23 18:42:36.230  2325  2509 E WifiStateMachine: SupplicantStoppingState: stopSupplicant  init.svc.wpa_supplicant=unknown init.svc.p2p_supplicant=unknown
+04-23 18:42:36.231  3572  3572 D wpa_supplicant: RX global ctrl_iface - hexdump(len=9): 54 45 52 4d 49 4e 41 54 45
+04-23 18:42:36.231  3572  3572 D wpa_supplicant: wlan0: Removing interface wlan0
+04-23 18:42:36.231  3572  3572 D wpa_supplicant: wlan0: Request to deauthenticate - bssid=00:00:00:00:00:00 pending_bssid=00:00:00:00:00:00 reason=3 state=SCANNING
+04-23 18:42:36.231  3572  3572 D wpa_supplicant: TDLS: Tear down peers
+04-23 18:42:36.231  3572  3572 D wpa_supplicant: wlan0: State: SCANNING -> DISCONNECTED
+04-23 18:42:36.231  3572  3572 D wpa_supplicant: nl80211: Set wlan0 operstate 0->0 (DORMANT)
+04-23 18:42:36.231  3572  3572 D wpa_supplicant: netlink: Operstate: ifindex=4 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+04-23 18:42:36.231  3572  3572 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/misc/wifi/sockets/wpa_ctrl_2325-2\x00
+04-23 18:42:36.231  3572  3572 D wpa_supplicant: EAPOL: External notification - portEnabled=0
+04-23 18:42:36.231  3572  3572 D wpa_supplicant: EAPOL: External notification - portValid=0
+04-23 18:42:36.232  2034  2307 E audio_hw_primary: no pcm card found!
+04-23 18:42:36.243  2034  2307 E audio_hw_primary: no pcm card found!
+04-23 18:42:36.252  3572  3572 D wpa_supplicant: wlan0: BSS: Remove id 0 BSSID 90:00:4e:82:36:1d SSID 'SHINOSAMUEL-LP' due to wpa_bss_flush
+
+
+
+
+
+
+04-23 18:47:14.780  3855  3878 D HeadsetStateMachine: Disconnected process message: 11, size: 0
+04-23 18:47:14.780  3855  3873 D BluetoothAdapterState: CURRENT_STATE=PENDING, MESSAGE = STARTED, isTurningOn=true, isTurningOff=false
+04-23 18:47:14.781  3855  3873 I bluedroid: enable
+04-23 18:47:14.781  3855  3873 I bt_hci_bdroid: init
+04-23 18:47:14.781  3855  3889 I GKI_LINUX: gki_task_entry task_id=0 [BTU] starting
+04-23 18:47:14.781  3855  3889 I bt-btu  : btu_task pending for preload complete event
+04-23 18:47:14.781  3855  3873 I bt_vendor: init
+04-23 18:47:14.781  3855  3873 I bt_vnd_conf: Attempt to load conf from /etc/bluetooth/bt_vendor.conf
+04-23 18:47:14.781  3855  3873 I bt_vnd_conf: vnd_load_conf file >/etc/bluetooth/bt_vendor.conf< not found
+04-23 18:47:14.781  3855  3873 D bt_userial: userial_init
+04-23 18:47:14.782  3855  3891 I bt_userial_vendor: userial vendor open: opening /dev/ttyO1
+04-23 18:47:14.782  3855  3891 E bt_userial_vendor: userial vendor open: unable to open /dev/ttyO1
+04-23 18:47:14.782  3855  3891 E bt_userial: userial_open opened wrong number of ports: got 0, expected 1.
+04-23 18:47:14.782  3855  3891 E bt_userial: userial_write error writing to serial port: Bad file number
+04-23 18:47:17.781  3855  3890 E bt-btif : ...preload_wait_timeout (retried:0/max-retry:0)...
+04-23 18:47:17.783  3855  3889 W bt-btu  : btu_task start abort!
+
+
+
+
+04-23 19:14:40.292  5396  5417 I OpenGLRenderer: Initialized EGL, version 1.4
+04-23 19:14:40.292  5396  5417 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-23 19:14:40.296  5396  5417 D OpenGLRenderer: Enabling debug mode 0
+04-23 19:14:40.304  5396  5396 W ViewRootImpl: Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_K, scanCode=37, metaState=0, flags=0x28, repeatCount=0, eventTime=2213826, downTime=2213786, deviceId=10, source=0x101 }
+
+
+
+
+
+
+
+04-23 19:15:04.062  5429  5429 I Pointer : Device Enumerated: Input Device -1: Virtual
+04-23 19:15:04.062  5429  5429 I Pointer :   Descriptor: a718a782d34bc767f4689c232d64d527998ea7fd
+04-23 19:15:04.062  5429  5429 I Pointer :   Generation: 2
+04-23 19:15:04.062  5429  5429 I Pointer :   Location: built-in
+04-23 19:15:04.062  5429  5429 I Pointer :   Keyboard Type: alphabetic
+04-23 19:15:04.062  5429  5429 I Pointer :   Has Vibrator: false
+04-23 19:15:04.062  5429  5429 I Pointer :   Sources: 0x301 ( keyboard dpad )
+04-23 19:15:04.063  5429  5429 I Pointer : Device Enumerated: Input Device 1: Android Power Button
+04-23 19:15:04.063  5429  5429 I Pointer :   Descriptor: 121a35665e29ab67eb240e688adc943dd337ad5c
+04-23 19:15:04.063  5429  5429 I Pointer :   Generation: 19
+04-23 19:15:04.063  5429  5429 I Pointer :   Location: built-in
+04-23 19:15:04.063  5429  5429 I Pointer :   Keyboard Type: non-alphabetic
+04-23 19:15:04.063  5429  5429 I Pointer :   Has Vibrator: false
+04-23 19:15:04.063  5429  5429 I Pointer :   Sources: 0x101 ( keyboard )
+04-23 19:15:04.064  2034  2307 E audio_hw_primary: no pcm card found!
+04-23 19:15:04.066  5429  5429 I Pointer : Device Enumerated: Input Device 2: FTSC1000:00 2808:5059
+04-23 19:15:04.066  5429  5429 I Pointer :   Descriptor: c494cd63f3be40ee7eef7311296656f1c5190a75
+04-23 19:15:04.066  5429  5429 I Pointer :   Generation: 21
+04-23 19:15:04.066  5429  5429 I Pointer :   Location: built-in
+04-23 19:15:04.066  5429  5429 I Pointer :   Keyboard Type: none
+04-23 19:15:04.066  5429  5429 I Pointer :   Has Vibrator: false
+04-23 19:15:04.066  5429  5429 I Pointer :   Sources: 0x1002 ( touchscreen )
+04-23 19:15:04.066  5429  5429 I Pointer :     AXIS_X: source=0x1002 min=0.0 max=1279.0 flat=0.0 fuzz=0.0 resolution=5.995316
+04-23 19:15:04.066  5429  5429 I Pointer :     AXIS_Y: source=0x1002 min=0.0 max=799.0 flat=0.0 fuzz=0.0 resolution=5.9925094
+04-23 19:15:04.066  5429  5429 I Pointer :     AXIS_PRESSURE: source=0x1002 min=0.0 max=1.0 flat=0.0 fuzz=0.0 resolution=0.0
+04-23 19:15:04.066  5429  5429 I Pointer :     AXIS_SIZE: source=0x1002 min=0.0 max=1.0 flat=0.0 fuzz=0.0 resolution=0.0
+04-23 19:15:04.066  5429  5429 I Pointer :     AXIS_TOUCH_MAJOR: source=0x1002 min=0.0 max=1509.437 flat=0.0 fuzz=0.0 resolution=0.0
+04-23 19:15:04.066  5429  5429 I Pointer :     AXIS_TOUCH_MINOR: source=0x1002 min=0.0 max=1509.437 flat=0.0 fuzz=0.0 resolution=0.0
+04-23 19:15:04.066  5429  5429 I Pointer :     AXIS_TOOL_MAJOR: source=0x1002 min=0.0 max=1509.437 flat=0.0 fuzz=0.0 resolution=0.0
+04-23 19:15:04.066  5429  5429 I Pointer :     AXIS_TOOL_MINOR: source=0x1002 min=0.0 max=1509.437 flat=0.0 fuzz=0.0 resolution=0.0
+04-23 19:15:04.066  5429  5429 I Pointer :     AXIS_ORIENTATION: source=0x1002 min=-1.5707964 max=1.5707964 flat=0.0 fuzz=0.0 resolution=0.0
+04-23 19:15:04.067  5429  5429 I Pointer : Device Enumerated: Input Device 3: Lid Switch
+04-23 19:15:04.067  5429  5429 I Pointer :   Descriptor: b1b383a648f23cb5298ba53d5c0992b1294c79b9
+04-23 19:15:04.067  5429  5429 I Pointer :   Generation: 15
+04-23 19:15:04.067  5429  5429 I Pointer :   Location: built-in
+04-23 19:15:04.067  5429  5429 I Pointer :   Keyboard Type: none
+04-23 19:15:04.067  5429  5429 I Pointer :   Has Vibrator: false
+04-23 19:15:04.067  5429  5429 I Pointer :   Sources: 0x80000000 ( )
+04-23 19:15:04.068  5429  5429 I Pointer : Device Enumerated: Input Device 4: Video Bus
+04-23 19:15:04.068  5429  5429 I Pointer :   Descriptor: 7d459f4a4887145e25856cde154f416f2d0db120
+04-23 19:15:04.068  5429  5429 I Pointer :   Generation: 13
+04-23 19:15:04.068  5429  5429 I Pointer :   Location: built-in
+04-23 19:15:04.068  5429  5429 I Pointer :   Keyboard Type: non-alphabetic
+04-23 19:15:04.068  5429  5429 I Pointer :   Has Vibrator: false
+04-23 19:15:04.068  5429  5429 I Pointer :   Sources: 0x101 ( keyboard )
+04-23 19:15:04.069  5429  5429 I Pointer : Device Enumerated: Input Device 5: gpio-keys
+04-23 19:15:04.069  5429  5429 I Pointer :   Descriptor: 485d69228e24f5e46da1598745890b214130dbc4
+04-23 19:15:04.069  5429  5429 I Pointer :   Generation: 11
+04-23 19:15:04.069  5429  5429 I Pointer :   Location: built-in
+04-23 19:15:04.069  5429  5429 I Pointer :   Keyboard Type: non-alphabetic
+04-23 19:15:04.069  5429  5429 I Pointer :   Has Vibrator: false
+04-23 19:15:04.069  5429  5429 I Pointer :   Sources: 0x80000101 ( keyboard )
+04-23 19:15:04.070  5429  5429 I Pointer : Device Enumerated: Input Device 6: gpio-keys
+04-23 19:15:04.070  5429  5429 I Pointer :   Descriptor: d2c52ff0f656fac4cd7b7a118d575e0109a9fe1c
+04-23 19:15:04.070  5429  5429 I Pointer :   Generation: 9
+04-23 19:15:04.070  5429  5429 I Pointer :   Location: built-in
+04-23 19:15:04.070  5429  5429 I Pointer :   Keyboard Type: non-alphabetic
+04-23 19:15:04.070  5429  5429 I Pointer :   Has Vibrator: false
+04-23 19:15:04.070  5429  5429 I Pointer :   Sources: 0x101 ( keyboard )
+04-23 19:15:04.070  5429  5429 I Pointer : Device Enumerated: Input Device 10: HID 1017:1006
+04-23 19:15:04.070  5429  5429 I Pointer :   Descriptor: 946c1088830a111c26a26f454f501acc8696cf54
+04-23 19:15:04.070  5429  5429 I Pointer :   Generation: 25
+04-23 19:15:04.070  5429  5429 I Pointer :   Location: external
+04-23 19:15:04.070  5429  5429 I Pointer :   Keyboard Type: alphabetic
+04-23 19:15:04.070  5429  5429 I Pointer :   Has Vibrator: false
+04-23 19:15:04.070  5429  5429 I Pointer :   Sources: 0x101 ( keyboard )
+04-23 19:15:04.074  5429  5429 I Pointer : Device Enumerated: Input Device 11: HID 1017:1006
+04-23 19:15:04.074  5429  5429 I Pointer :   Descriptor: 5675a2c9b7740877df63ab948c16a1d512cf2bef
+04-23 19:15:04.074  5429  5429 I Pointer :   Generation: 28
+04-23 19:15:04.074  5429  5429 I Pointer :   Location: external
+04-23 19:15:04.074  5429  5429 I Pointer :   Keyboard Type: non-alphabetic
+04-23 19:15:04.074  5429  5429 I Pointer :   Has Vibrator: false
+04-23 19:15:04.074  5429  5429 I Pointer :   Sources: 0x1002313 ( keyboard dpad mouse joystick )
+04-23 19:15:04.074  5429  5429 I Pointer :     AXIS_X: source=0x2002 min=0.0 max=1279.0 flat=0.0 fuzz=0.0 resolution=0.0
+04-23 19:15:04.074  5429  5429 I Pointer :     AXIS_Y: source=0x2002 min=0.0 max=799.0 flat=0.0 fuzz=0.0 resolution=0.0
+04-23 19:15:04.074  5429  5429 I Pointer :     AXIS_PRESSURE: source=0x2002 min=0.0 max=1.0 flat=0.0 fuzz=0.0 resolution=0.0
+04-23 19:15:04.074  5429  5429 I Pointer :     AXIS_VSCROLL: source=0x2002 min=-1.0 max=1.0 flat=0.0 fuzz=0.0 resolution=0.0
+04-23 19:15:04.074  5429  5429 I Pointer :     AXIS_HSCROLL: source=0x2002 min=-1.0 max=1.0 flat=0.0 fuzz=0.0 resolution=0.0
+04-23 19:15:04.074  5429  5429 I Pointer :     AXIS_GENERIC_1: source=0x1000010 min=0.0 max=1.0 flat=0.0 fuzz=0.0 resolution=0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: FATAL EXCEPTION: main
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: Process: com.android.wallpaper.holospiral, PID: 5471
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.android.wallpaper.holospiral/com.android.wallpaper.holospiral.HoloSpiralTestActivity}: java.lang.ClassNotFoundException: Didn't find class "com.android.wallpaper.holospiral.HoloSpiralTestActivity" on path: DexPathList[[zip file "/system/app/HoloSpiralWallpaper/HoloSpiralWallpaper.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2236)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2387)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	at android.app.ActivityThread.access$800(ActivityThread.java:151)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1303)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:135)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5254)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:372)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.wallpaper.holospiral.HoloSpiralTestActivity" on path: DexPathList[[zip file "/system/app/HoloSpiralWallpaper/HoloSpiralWallpaper.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:511)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:469)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	at android.app.Instrumentation.newActivity(Instrumentation.java:1066)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2226)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	... 10 more
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	Suppressed: java.io.IOException: Zip archive '/system/app/HoloSpiralWallpaper/HoloSpiralWallpaper.apk' doesn't contain classes.dex (error msg: Entry not found)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at dalvik.system.DexFile.openDexFileNative(Native Method)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at dalvik.system.DexFile.openDexFile(DexFile.java:295)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at dalvik.system.DexFile.<init>(DexFile.java:80)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at dalvik.system.DexFile.<init>(DexFile.java:59)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at dalvik.system.DexPathList.loadDexFile(DexPathList.java:262)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at dalvik.system.DexPathList.makeDexElements(DexPathList.java:231)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at dalvik.system.DexPathList.<init>(DexPathList.java:109)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:48)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at dalvik.system.PathClassLoader.<init>(PathClassLoader.java:65)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at android.app.ApplicationLoaders.getClassLoader(ApplicationLoaders.java:57)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at android.app.LoadedApk.getClassLoader(LoadedApk.java:361)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at android.app.LoadedApk.makeApplication(LoadedApk.java:553)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4526)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at android.app.ActivityThread.access$1500(ActivityThread.java:151)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1364)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		... 7 more
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	Caused by: java.io.IOException: Failed to open oat file from dex location '/system/app/HoloSpiralWallpaper/HoloSpiralWallpaper.apk'
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		... 22 more
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	Caused by: java.io.IOException: Failed to open oat file from /system/app/HoloSpiralWallpaper/x86/HoloSpiralWallpaper.odex (error Failed to open oat filename for reading: No such file or directory) (no dalvik_cache availible) and relocation failed.
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		... 22 more
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	Caused by: java.io.IOException: 
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		... 22 more
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	Suppressed: java.lang.ClassNotFoundException: com.android.wallpaper.holospiral.HoloSpiralTestActivity
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at java.lang.Class.classForName(Native Method)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at java.lang.BootClassLoader.findClass(ClassLoader.java:781)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at java.lang.BootClassLoader.loadClass(ClassLoader.java:841)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		at java.lang.ClassLoader.loadClass(ClassLoader.java:504)
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 		... 13 more
+04-23 19:15:12.609  5471  5471 E AndroidRuntime: 	Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack available
+04-23 19:15:12.614  2325  4573 W ActivityManager:   Force finishing activity 1 com.android.wallpaper.holospiral/.HoloSpiralTestActivity
+04-23 19:15:12.615  2325  4573 W ActivityManager:   Force finishing activity 2 com.android.development/.Development
+04-23 19:15:12.618  2034  2307 E audio_hw_primary: no pcm card found!
+04-23 19:15:12.619  5429  5447 D OpenGLRenderer: endAllStagingAnimators on 0x7f14c4a8c400 (ListView) with handle 0x7f14bae69680
+04-23 19:15:12.629  2034  2307 E audio_hw_primary: no pcm card found!
+
+
+
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: FATAL EXCEPTION: main
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: Process: com.android.galaxy4, PID: 5548
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate service com.android.galaxy4.Galaxy4Wallpaper: java.lang.ClassNotFoundException: Didn't find class "com.android.galaxy4.Galaxy4Wallpaper" on path: DexPathList[[zip file "/system/app/Galaxy4/Galaxy4.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2746)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	at android.app.ActivityThread.access$1800(ActivityThread.java:151)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1386)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:135)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:5254)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Method.java:372)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.galaxy4.Galaxy4Wallpaper" on path: DexPathList[[zip file "/system/app/Galaxy4/Galaxy4.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:511)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:469)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2743)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	... 9 more
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	Suppressed: java.io.IOException: Zip archive '/system/app/Galaxy4/Galaxy4.apk' doesn't contain classes.dex (error msg: Entry not found)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at dalvik.system.DexFile.openDexFileNative(Native Method)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at dalvik.system.DexFile.openDexFile(DexFile.java:295)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at dalvik.system.DexFile.<init>(DexFile.java:80)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at dalvik.system.DexFile.<init>(DexFile.java:59)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at dalvik.system.DexPathList.loadDexFile(DexPathList.java:262)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at dalvik.system.DexPathList.makeDexElements(DexPathList.java:231)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at dalvik.system.DexPathList.<init>(DexPathList.java:109)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:48)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at dalvik.system.PathClassLoader.<init>(PathClassLoader.java:65)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at android.app.ApplicationLoaders.getClassLoader(ApplicationLoaders.java:57)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at android.app.LoadedApk.getClassLoader(LoadedApk.java:361)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at android.app.LoadedApk.makeApplication(LoadedApk.java:553)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4526)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at android.app.ActivityThread.access$1500(ActivityThread.java:151)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1364)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		... 7 more
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	Caused by: java.io.IOException: Failed to open oat file from dex location '/system/app/Galaxy4/Galaxy4.apk'
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		... 22 more
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	Caused by: java.io.IOException: Failed to open oat file from /system/app/Galaxy4/x86/Galaxy4.odex (error Failed to open oat filename for reading: No such file or directory) (no dalvik_cache availible) and relocation failed.
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		... 22 more
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	Caused by: java.io.IOException: 
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		... 22 more
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	Suppressed: java.lang.ClassNotFoundException: com.android.galaxy4.Galaxy4Wallpaper
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at java.lang.Class.classForName(Native Method)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at java.lang.BootClassLoader.findClass(ClassLoader.java:781)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at java.lang.BootClassLoader.loadClass(ClassLoader.java:841)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		at java.lang.ClassLoader.loadClass(ClassLoader.java:504)
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 		... 11 more
+04-23 19:15:22.774  5548  5548 E AndroidRuntime: 	Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack available
+04-23 19:15:22.783  2034  2307 E audio_hw_primary: no pcm card found!
+04-23 19:15:22.788  5528  5528 W InputMethodManager: Ignoring onBind: cur seq=120, given seq=119
+04-23 19:15:22.794  2034  2307 E audio_hw_primary: no pcm card found!
+04-23 19:15:22.795  2325  2355 I ActivityManager: Displayed com.android.wallpaper.livepicker/.LiveWallpaperPreview: +444ms (total +684ms)
+
+
+
+
+
+
+
+
+
+

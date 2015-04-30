@@ -1,0 +1,92 @@
+Module                  Size  Used by
+bnep                   18829  2 
+bluetooth             411957  5 bnep
+fuse                   84650  7 
+ip6t_rpfilter          12490  1 
+ip6t_REJECT            12553  2 
+nf_reject_ipv6         13125  1 ip6t_REJECT
+xt_conntrack           12664  9 
+ebtable_nat            12695  0 
+ebtable_broute         12635  0 
+bridge                 95768  1 ebtable_broute
+stp                    12756  1 bridge
+llc                    13645  2 stp,bridge
+ebtable_filter         12715  0 
+ebtables               21315  3 ebtable_broute,ebtable_nat,ebtable_filter
+ip6table_nat           12752  1 
+nf_conntrack_ipv6      18282  6 
+nf_defrag_ipv6         26172  1 nf_conntrack_ipv6
+nf_nat_ipv6            13590  1 ip6table_nat
+ip6table_mangle        12620  1 
+ip6table_security      12630  1 
+ip6table_raw           12603  1 
+ip6table_filter        12711  1 
+ip6_tables             17635  5 ip6table_filter,ip6table_mangle,ip6table_security,ip6table_nat,ip6table_raw
+iptable_nat            12763  1 
+nf_conntrack_ipv4      14192  5 
+nf_defrag_ipv4         12601  1 nf_conntrack_ipv4
+nf_nat_ipv4            13576  1 iptable_nat
+nf_nat                 20207  2 nf_nat_ipv4,nf_nat_ipv6
+nf_conntrack           86803  6 nf_nat,nf_nat_ipv4,nf_nat_ipv6,xt_conntrack,nf_conntrack_ipv4,nf_conntrack_ipv6
+iptable_mangle         12615  1 
+iptable_security       12625  1 
+iptable_raw            12598  1 
+intel_soc_dts_thermal    13214  0 
+coretemp               13201  0 
+kvm_intel             137527  0 
+kvm                   404489  1 kvm_intel
+snd_soc_sst_byt_rt5640_mach    12980  0 
+snd_soc_rt5640         66686  1 snd_soc_sst_byt_rt5640_mach
+snd_soc_sst_baytrail_pcm    24534  0 
+snd_soc_sst_dsp        25784  1 snd_soc_sst_baytrail_pcm
+snd_soc_rl6231         12774  1 snd_soc_rt5640
+mmc_block              31087  3 
+snd_soc_core          163128  3 snd_soc_rt5640,snd_soc_sst_baytrail_pcm,snd_soc_sst_byt_rt5640_mach
+iTCO_wdt               13256  0 
+iTCO_vendor_support    13243  1 iTCO_wdt
+hid_multitouch         17203  0 
+snd_compress           18531  1 snd_soc_core
+snd_seq                55888  0 
+uas                    22038  0 
+gpio_keys              17761  0 
+mei_txe                19052  0 
+snd_seq_device         13824  1 snd_seq
+mei                    71046  1 mei_txe
+snd_pcm                92667  3 snd_soc_rt5640,snd_soc_core,snd_soc_sst_baytrail_pcm
+iosf_mbi               13149  1 intel_soc_dts_thermal
+lpc_ich                16877  0 
+snd_timer              27910  2 snd_pcm,snd_seq
+sdhci_acpi             13286  0 
+snd                    63701  6 snd_soc_core,snd_timer,snd_pcm,snd_seq,snd_seq_device,snd_compress
+dw_dmac                12848  0 
+dw_dmac_core           23085  1 dw_dmac
+sdhci                  37380  1 sdhci_acpi
+soc_button_array       12642  0 
+goodix                 12823  0 
+mmc_core              108193  3 mmc_block,sdhci,sdhci_acpi
+soundcore              14128  1 snd
+i2c_hid                18352  0 
+int3400_thermal        12863  0 
+int3403_thermal        13003  0 
+int3402_thermal        12932  0 
+acpi_thermal_rel       13314  1 int3400_thermal
+rfkill_gpio            12673  0 
+pwm_lpss_platform      12631  0 
+acpi_pad               13611  0 
+rfkill                 20934  4 bluetooth,rfkill_gpio
+i2c_designware_platform    12930  0 
+snd_soc_sst_acpi       12871  0 
+pwm_lpss               12934  1 pwm_lpss_platform
+i2c_designware_core    13907  1 i2c_designware_platform
+isofs                  39112  1 
+squashfs               46707  2 
+i915                  881798  0 
+i2c_algo_bit           13058  1 i915
+drm_kms_helper         82152  1 i915
+drm                   248130  2 i915,drm_kms_helper
+crc32_pclmul           12987  0 
+crc32c_intel           12796  0 
+video                  19276  1 i915
+usb_storage            51457  2 uas
+sunrpc                242553  1 
+loop                   23237  10 

@@ -1,0 +1,53 @@
+Module                  Size  Used by    Not tainted
+hid_multitouch          8801  0 
+gpio_keys               6272  0 
+iTCO_wdt                5448  0 
+iTCO_vendor_support     2781  1 iTCO_wdt
+aesni_intel           159324  0 
+mac_hid                 3595  0 
+pppoe                   8270  0 
+r8723bs               725152  0 
+cfg80211              456106  1 r8723bs
+pcspkr                  1878  0 
+efivars                 7182  0 
+lpc_ich                13917  0 
+mei_txe                13710  0 
+mei                    71844  1 mei_txe
+i915                  887409  5 
+drm_kms_helper         90865  1 i915
+drm                   290079  7 i915,drm_kms_helper
+i2c_algo_bit            5141  1 i915
+iosf_mbi                3549  0 
+kxcjk_1013             11575  0 
+8250_fintek             2563  0 
+jsa1212                 4127  0 
+dw_dmac                 2443  0 
+dw_dmac_core           16751  1 dw_dmac
+soc_button_array        2122  0 
+int3403_thermal         2344  0 
+int3402_thermal         1578  0 
+processor_thermal_device     5675  0 
+int340x_thermal_zone     3229  3 int3403_thermal,int3402_thermal,processor_thermal_device
+int3400_thermal         3961  0 
+acpi_thermal_rel        4829  1 int3400_thermal
+goodix                  3679  0 
+i2c_hid                10758  0 
+bmc150_accel           13849  0 
+industrialio_triggered_buffer     1594  2 kxcjk_1013,bmc150_accel
+kfifo_buf               3078  1 industrialio_triggered_buffer
+industrialio           42195  5 kxcjk_1013,jsa1212,bmc150_accel,industrialio_triggered_buffer,kfifo_buf
+snd_soc_sst_acpi        3063  0 
+spi_pxa2xx_platform    14048  0 
+8250_dw                 5876  0 
+pwm_lpss_platform       1431  0 
+pwm_lpss                2233  1 pwm_lpss_platform
+snd_soc_rt5640         78892  0 
+snd_soc_rl6231          2245  1 snd_soc_rt5640
+snd_soc_core          160729  1 snd_soc_rt5640
+snd_compress           11519  1 snd_soc_core
+snd_pcm_dmaengine       5196  1 snd_soc_core
+snd_pcm                84353  3 snd_soc_rt5640,snd_soc_core,snd_pcm_dmaengine
+snd_timer              19118  1 snd_pcm
+snd                    64558  4 snd_soc_core,snd_compress,snd_pcm,snd_timer
+soundcore               6383  1 snd
+atkbd                  16640  0 

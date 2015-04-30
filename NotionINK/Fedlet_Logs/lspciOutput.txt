@@ -1,0 +1,53 @@
+00:00.0 Host bridge: Intel Corporation Atom Processor Z36xxx/Z37xxx Series SoC Transaction Register (rev 0f)
+	Subsystem: Intel Corporation Device 0f31
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Kernel driver in use: iosf_mbi_pci
+	Kernel modules: iosf_mbi
+
+00:02.0 VGA compatible controller: Intel Corporation Atom Processor Z36xxx/Z37xxx Series Graphics & Display (rev 0f) (prog-if 00 [VGA controller])
+	DeviceName:  Onboard IGD
+	Subsystem: Intel Corporation Atom Processor Z36xxx/Z37xxx Series Graphics & Display
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 255
+	Region 0: Memory at 90000000 (32-bit, non-prefetchable) [size=4M]
+	Region 2: Memory at 80000000 (32-bit, prefetchable) [size=256M]
+	Region 4: I/O ports at 1000 [size=8]
+	Expansion ROM at <unassigned> [disabled]
+	Capabilities: <access denied>
+	Kernel modules: i915
+
+00:14.0 USB controller: Intel Corporation Atom Processor Z36xxx/Z37xxx Series USB xHCI (rev 0f) (prog-if 30 [XHCI])
+	Subsystem: Intel Corporation Atom Processor Z36xxx/Z37xxx Series USB xHCI
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 261
+	Region 0: Memory at 90800000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: xhci_hcd
+
+00:1a.0 Encryption controller: Intel Corporation Atom Processor Z36xxx/Z37xxx Series Trusted Execution Engine (rev 0f)
+	Subsystem: Intel Corporation Atom Processor Z36xxx/Z37xxx Series Trusted Execution Engine
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 262
+	Region 0: Memory at 90700000 (32-bit, non-prefetchable) [size=1M]
+	Region 1: Memory at 90600000 (32-bit, non-prefetchable) [size=1M]
+	Capabilities: <access denied>
+	Kernel driver in use: mei_txe
+	Kernel modules: mei_txe
+
+00:1f.0 ISA bridge: Intel Corporation Atom Processor Z36xxx/Z37xxx Series Power Control Unit (rev 0f)
+	Subsystem: Intel Corporation Atom Processor Z36xxx/Z37xxx Series Power Control Unit
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Capabilities: <access denied>
+	Kernel driver in use: lpc_ich
+	Kernel modules: lpc_ich
+

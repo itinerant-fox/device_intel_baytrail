@@ -1,0 +1,2154 @@
+-- Logs begin at Wed 2015-03-04 16:31:13 EST, end at Wed 2015-03-04 16:31:57 EST. --
+Mar 04 16:31:13 localhost systemd-journal[669]: Runtime journal is using 8.0M (max allowed 97.7M, trying to leave 146.5M free of 969.0M available → current limit 97.7M).
+Mar 04 16:31:14 localhost systemd-journal[669]: Permanent journal is using 8.0M (max allowed 591.9M, trying to leave 887.9M free of 2.1G available → current limit 591.9M).
+Mar 04 16:31:14 localhost systemd-journal[669]: Time spent on flushing to /var is 24.997ms for 2 entries.
+Mar 04 16:31:14 localhost systemd-journald[158]: Received SIGTERM from PID 1 (systemd).
+Mar 04 16:31:14 localhost kernel: audit: type=1404 audit(1425504671.803:2): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+Mar 04 16:31:14 localhost kernel: SELinux: 2048 avtab hash slots, 111331 rules.
+Mar 04 16:31:14 localhost kernel: SELinux: 2048 avtab hash slots, 111331 rules.
+Mar 04 16:31:14 localhost kernel: SELinux:  8 users, 103 roles, 4980 types, 295 bools, 1 sens, 1024 cats
+Mar 04 16:31:14 localhost kernel: SELinux:  83 classes, 111331 rules
+Mar 04 16:31:14 localhost kernel: SELinux:  Permission audit_read in class capability2 not defined in policy.
+Mar 04 16:31:14 localhost kernel: SELinux: the above unknown classes and permissions will be allowed
+Mar 04 16:31:14 localhost kernel: SELinux:  Completing initialization.
+Mar 04 16:31:14 localhost kernel: SELinux:  Setting up existing superblocks.
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev rootfs, type rootfs), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev bdev, type bdev), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev proc, type proc), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev devtmpfs, type devtmpfs), uses transition SIDs
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev debugfs, type debugfs), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev sockfs, type sockfs), uses task SIDs
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev pipefs, type pipefs), uses task SIDs
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev anon_inodefs, type anon_inodefs), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev aio, type aio), not configured for labeling
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev devpts, type devpts), uses transition SIDs
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev hugetlbfs, type hugetlbfs), uses transition SIDs
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev mqueue, type mqueue), uses transition SIDs
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev selinuxfs, type selinuxfs), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev securityfs, type securityfs), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev pstore, type pstore), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev efivarfs, type efivarfs), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev rpc_pipefs, type rpc_pipefs), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev configfs, type configfs), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev sda1, type iso9660), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev loop0, type squashfs), uses xattr
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev loop2, type squashfs), uses xattr
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev dm-0, type ext4), uses xattr
+Mar 04 16:31:14 localhost kernel: audit: type=1403 audit(1425504672.141:3): policy loaded auid=4294967295 ses=4294967295
+Mar 04 16:31:14 localhost systemd[1]: Successfully loaded SELinux policy in 371.943ms.
+Mar 04 16:31:14 localhost systemd[1]: Relabelled /dev and /run in 45.993ms.
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev autofs, type autofs), uses genfs_contexts
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev hugetlbfs, type hugetlbfs), uses transition SIDs
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+Mar 04 16:31:14 localhost kernel: EXT4-fs (dm-0): re-mounted. Opts: (null)
+Mar 04 16:31:14 localhost systemd-journal[669]: Journal started
+-- Subject: The Journal has been started
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The system journal process has been starting up, opened the journal
+-- files for writing and is now ready to process requests.
+Mar 04 16:31:12 localhost systemd[1]: systemd 217 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN )
+Mar 04 16:31:12 localhost systemd[1]: Detected architecture 'x86'.
+Mar 04 16:31:13 localhost systemd[1]: Configuration file /usr/lib/systemd/system/auditd.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without restrictions. Proceeding anyway.
+Mar 04 16:31:14 localhost systemd[1]: Started Load/Save Random Seed.
+-- Subject: Unit systemd-random-seed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-random-seed.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:14 localhost systemd[1]: Starting Flush Journal to Persistent Storage...
+-- Subject: Unit systemd-journal-flush.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-journal-flush.service has begun starting up.
+Mar 04 16:31:14 localhost systemd[1]: Starting LVM2 metadata daemon...
+-- Subject: Unit lvm2-lvmetad.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lvm2-lvmetad.service has begun starting up.
+Mar 04 16:31:14 localhost systemd[1]: Started LVM2 metadata daemon.
+-- Subject: Unit lvm2-lvmetad.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lvm2-lvmetad.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:14 localhost systemd[1]: Started Create System Users.
+-- Subject: Unit systemd-sysusers.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-sysusers.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:14 localhost systemd[1]: Starting Create Static Device Nodes in /dev...
+-- Subject: Unit systemd-tmpfiles-setup-dev.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-setup-dev.service has begun starting up.
+Mar 04 16:31:14 localhost systemd[1]: Started Configure read-only root support.
+-- Subject: Unit fedora-readonly.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit fedora-readonly.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:14 localhost systemd[1]: Started Flush Journal to Persistent Storage.
+-- Subject: Unit systemd-journal-flush.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-journal-flush.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:14 localhost systemd[1]: Started Import network configuration from initramfs.
+-- Subject: Unit fedora-import-state.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit fedora-import-state.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:14 localhost lvm[673]: No volume groups found
+Mar 04 16:31:14 localhost systemd[1]: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+-- Subject: Unit lvm2-monitor.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lvm2-monitor.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:14 localhost systemd[1]: Started Create Static Device Nodes in /dev.
+-- Subject: Unit systemd-tmpfiles-setup-dev.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-setup-dev.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:14 localhost systemd[1]: Starting Local File Systems (Pre).
+-- Subject: Unit local-fs-pre.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit local-fs-pre.target has begun starting up.
+Mar 04 16:31:14 localhost systemd[1]: Reached target Local File Systems (Pre).
+-- Subject: Unit local-fs-pre.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit local-fs-pre.target has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:14 localhost systemd[1]: Mounting /var/cache/yum...
+-- Subject: Unit var-cache-yum.mount has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit var-cache-yum.mount has begun starting up.
+Mar 04 16:31:14 localhost systemd[1]: Mounting /var/tmp...
+-- Subject: Unit var-tmp.mount has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit var-tmp.mount has begun starting up.
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev tmpfs, type tmpfs), uses mountpoint labeling
+Mar 04 16:31:14 localhost systemd[1]: var-tmp.mount: Directory /var/tmp to mount over is not empty, mounting anyway.
+-- Subject: Mount point is not empty
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The directory /var/tmp is specified as the mount point (second field in
+-- /etc/fstab or Where= field in systemd unit file) and is not empty.
+-- This does not interfere with mounting, but the pre-exisiting files in
+-- this directory become inaccessible. To see those over-mounted files,
+-- please manually mount the underlying file system to a secondary
+-- location.
+Mar 04 16:31:14 localhost systemd[1]: Mounted /var/tmp.
+-- Subject: Unit var-tmp.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit var-tmp.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:14 localhost kernel: SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+Mar 04 16:31:14 localhost systemd[1]: Mounted /var/cache/yum.
+-- Subject: Unit var-cache-yum.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit var-cache-yum.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:17 localhost systemd[1]: Started Rebuild Hardware Database.
+-- Subject: Unit systemd-udev-hwdb-update.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udev-hwdb-update.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:17 localhost systemd[1]: Starting udev Kernel Device Manager...
+-- Subject: Unit systemd-udevd.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udevd.service has begun starting up.
+Mar 04 16:31:17 localhost systemd-udevd[726]: starting version 217
+Mar 04 16:31:18 localhost systemd[1]: Started udev Kernel Device Manager.
+-- Subject: Unit systemd-udevd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udevd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:18 localhost systemd[1]: Started udev Wait for Complete Device Initialization.
+-- Subject: Unit systemd-udev-settle.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udev-settle.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:18 localhost systemd[1]: Starting Activation of DM RAID sets...
+-- Subject: Unit dmraid-activation.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dmraid-activation.service has begun starting up.
+Mar 04 16:31:18 localhost kernel: acpi PNP0C0A:01: Driver battery requests probe deferral
+Mar 04 16:31:18 localhost kernel: acpi PNP0C0A:01: Driver battery requests probe deferral
+Mar 04 16:31:18 localhost kernel: i2c i2c-1: Failed to register i2c client HIMX2056:01 at 0x24 (-16)
+Mar 04 16:31:18 localhost kernel: i2c i2c-1: failed to add I2C device HIMX2056:01 from ACPI
+Mar 04 16:31:18 localhost kernel: acpi PNP0C0A:01: Driver battery requests probe deferral
+Mar 04 16:31:18 localhost kernel: acpi PNP0C0A:01: Driver battery requests probe deferral
+Mar 04 16:31:18 localhost kernel: acpi PNP0C0A:01: Driver battery requests probe deferral
+Mar 04 16:31:18 localhost kernel: ACPI: Battery Slot [BMBT] (battery present)
+Mar 04 16:31:18 localhost kernel: [Firmware Bug]: No valid trip found
+Mar 04 16:31:18 localhost kernel: sdhci: Secure Digital Host Controller Interface driver
+Mar 04 16:31:18 localhost kernel: sdhci: Copyright(c) Pierre Ossman
+Mar 04 16:31:18 localhost kernel: dw_dmac INTL9C60:00: Missing DT data
+Mar 04 16:31:18 localhost kernel: dw_dmac INTL9C60:00: DesignWare DMA Controller, 8 channels
+Mar 04 16:31:18 localhost kernel: dw_dmac INTL9C60:01: Missing DT data
+Mar 04 16:31:18 localhost kernel: dw_dmac INTL9C60:01: DesignWare DMA Controller, 8 channels
+Mar 04 16:31:18 localhost kernel: sdhci-acpi 80860F14:00: No vmmc regulator found
+Mar 04 16:31:18 localhost kernel: sdhci-acpi 80860F14:00: No vqmmc regulator found
+Mar 04 16:31:18 localhost kernel: mmc0: SDHCI controller on ACPI [80860F14:00] using ADMA
+Mar 04 16:31:18 localhost kernel: sdhci-acpi INT33BB:00: No vmmc regulator found
+Mar 04 16:31:18 localhost kernel: sdhci-acpi INT33BB:00: No vqmmc regulator found
+Mar 04 16:31:18 localhost kernel: mmc1: SDHCI controller on ACPI [INT33BB:00] using ADMA
+Mar 04 16:31:18 localhost kernel: sdhci-acpi 80860F14:02: No vmmc regulator found
+Mar 04 16:31:18 localhost kernel: sdhci-acpi 80860F14:02: No vqmmc regulator found
+Mar 04 16:31:18 localhost kernel: mmc2: SDHCI controller on ACPI [80860F14:02] using ADMA
+Mar 04 16:31:18 localhost kernel: WARNING! power/level is deprecated; use power/control instead
+Mar 04 16:31:18 localhost kernel: mmc0: BKOPS_EN bit is not set
+Mar 04 16:31:18 localhost kernel: mmc0: new HS200 MMC card at address 0001
+Mar 04 16:31:18 localhost kernel: mmc1: new high speed SDIO card at address 0001
+Mar 04 16:31:18 localhost kernel: mei_txe 0000:00:1a.0: can't derive routing for PCI INT A
+Mar 04 16:31:18 localhost kernel: mei_txe 0000:00:1a.0: PCI INT A: no GSI
+Mar 04 16:31:18 localhost kernel: mei_txe 0000:00:1a.0: irq 262 for MSI/MSI-X
+Mar 04 16:31:18 localhost kernel: input: gpio-keys as /devices/platform/gpio-keys.0.auto/input/input3
+Mar 04 16:31:18 localhost kernel: input: gpio-keys as /devices/platform/gpio-keys.1.auto/input/input4
+Mar 04 16:31:19 localhost kernel: usbcore: registered new interface driver uas
+Mar 04 16:31:19 localhost kernel: mmc2: new high speed SDXC card at address 0001
+Mar 04 16:31:19 localhost kernel: iTCO_vendor_support: vendor-support=0
+Mar 04 16:31:19 localhost kernel: iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+Mar 04 16:31:19 localhost kernel: iTCO_wdt: Found a Bay Trail SoC TCO device (Version=3, TCOBASE=0x0460)
+Mar 04 16:31:19 localhost kernel: iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+Mar 04 16:31:19 localhost mtp-probe[759]: checking bus 1, device 3: "/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1"
+Mar 04 16:31:19 localhost mtp-probe[759]: bus: 1, device: 3 was not an MTP device
+Mar 04 16:31:19 localhost kernel: mmcblk0: mmc0:0001 032GE4 29.1 GiB 
+Mar 04 16:31:19 localhost kernel: mmcblk0boot0: mmc0:0001 032GE4 partition 1 4.00 MiB
+Mar 04 16:31:19 localhost systemd[1]: Started Activation of DM RAID sets.
+-- Subject: Unit dmraid-activation.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dmraid-activation.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:19 localhost systemd[1]: Starting Local File Systems.
+-- Subject: Unit local-fs.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit local-fs.target has begun starting up.
+Mar 04 16:31:19 localhost kernel: mmcblk0boot1: mmc0:0001 032GE4 partition 2 4.00 MiB
+Mar 04 16:31:19 localhost kernel: mmcblk0rpmb: mmc0:0001 032GE4 partition 3 4.00 MiB
+Mar 04 16:31:19 localhost kernel:  mmcblk0: p1 p2 p3 p4
+Mar 04 16:31:19 localhost kernel: mmcblk1: mmc2:0001 00000 59.6 GiB 
+Mar 04 16:31:19 localhost kernel:  mmcblk1: p1
+Mar 04 16:31:19 localhost kernel: input: FTSC1000:00 2808:5059 as /devices/platform/80860F41:03/i2c-3/i2c-FTSC1000:00/0018:2808:5059.0003/input/input5
+Mar 04 16:31:19 localhost kernel: hid-multitouch 0018:2808:5059.0003: input,hidraw2: <UNKNOWN> HID v1.00 Device [FTSC1000:00 2808:5059] on 
+Mar 04 16:31:19 localhost systemd[1]: Reached target Local File Systems.
+-- Subject: Unit local-fs.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit local-fs.target has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:19 localhost systemd[1]: Starting Create Volatile Files and Directories...
+-- Subject: Unit systemd-tmpfiles-setup.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-setup.service has begun starting up.
+Mar 04 16:31:19 localhost systemd[1]: Starting Rebuild Journal Catalog...
+-- Subject: Unit systemd-journal-catalog-update.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-journal-catalog-update.service has begun starting up.
+Mar 04 16:31:19 localhost systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+-- Subject: Unit plymouth-read-write.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-read-write.service has begun starting up.
+Mar 04 16:31:19 localhost systemd[1]: Started Mark the need to relabel after reboot.
+-- Subject: Unit fedora-autorelabel-mark.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit fedora-autorelabel-mark.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:19 localhost systemd[1]: Started Relabel all filesystems, if necessary.
+-- Subject: Unit fedora-autorelabel.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit fedora-autorelabel.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:19 localhost systemd[1]: Starting Encrypted Volumes.
+-- Subject: Unit cryptsetup.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cryptsetup.target has begun starting up.
+Mar 04 16:31:19 localhost systemd[1]: Reached target Encrypted Volumes.
+-- Subject: Unit cryptsetup.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cryptsetup.target has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:19 localhost systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+-- Subject: Unit plymouth-read-write.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-read-write.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:19 localhost systemd[1]: Started Create Volatile Files and Directories.
+-- Subject: Unit systemd-tmpfiles-setup.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-setup.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:19 localhost systemd[1]: Starting Security Auditing Service...
+-- Subject: Unit auditd.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit auditd.service has begun starting up.
+Mar 04 16:31:19 localhost systemd[1]: Started Rebuild Journal Catalog.
+-- Subject: Unit systemd-journal-catalog-update.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-journal-catalog-update.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:19 localhost kernel: baytrail-pcm-audio baytrail-pcm-audio: ipc: error DSP boot timeout
+Mar 04 16:31:19 localhost kernel: byt-rt5640 byt-rt5640: ASoC: CPU DAI baytrail-pcm-audio not registered
+Mar 04 16:31:19 localhost kernel: platform byt-rt5640: Driver byt-rt5640 requests probe deferral
+Mar 04 16:31:19 localhost kernel: byt-rt5640 byt-rt5640: ASoC: CPU DAI baytrail-pcm-audio not registered
+Mar 04 16:31:19 localhost kernel: platform byt-rt5640: Driver byt-rt5640 requests probe deferral
+Mar 04 16:31:19 localhost auditctl[790]: No rules
+Mar 04 16:31:19 localhost systemd[1]: Started Security Auditing Service.
+-- Subject: Unit auditd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit auditd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:19 localhost systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+-- Subject: Unit systemd-update-utmp.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp.service has begun starting up.
+Mar 04 16:31:19 localhost auditd[789]: Started dispatcher: /sbin/audispd pid: 801
+Mar 04 16:31:19 localhost kernel: audit: type=1305 audit(1425504679.648:4): audit_pid=789 old=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:auditd_t:s0 res=1
+Mar 04 16:31:19 localhost audispd[801]: priority_boost_parser called with: 4
+Mar 04 16:31:19 localhost audispd[801]: max_restarts_parser called with: 10
+Mar 04 16:31:19 localhost systemd[1]: Started Update UTMP about System Boot/Shutdown.
+-- Subject: Unit systemd-update-utmp.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:19 localhost auditd[789]: Init complete, auditd 2.4.1 listening for events (startup state enable)
+Mar 04 16:31:19 localhost audispd[801]: audispd initialized with q_depth=150 and 1 active plugins
+Mar 04 16:31:22 localhost systemd[1]: Started Rebuild Dynamic Linker Cache.
+-- Subject: Unit ldconfig.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ldconfig.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting Update is Completed...
+-- Subject: Unit systemd-update-done.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-done.service has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Started Update is Completed.
+-- Subject: Unit systemd-update-done.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-done.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting System Initialization.
+-- Subject: Unit sysinit.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sysinit.target has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Reached target System Initialization.
+-- Subject: Unit sysinit.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sysinit.target has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting Open-iSCSI iscsid Socket.
+-- Subject: Unit iscsid.socket has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit iscsid.socket has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Listening on Open-iSCSI iscsid Socket.
+-- Subject: Unit iscsid.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit iscsid.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting RPCbind Server Activation Socket.
+-- Subject: Unit rpcbind.socket has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rpcbind.socket has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Listening on RPCbind Server Activation Socket.
+-- Subject: Unit rpcbind.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rpcbind.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting Open-iSCSI iscsiuio Socket.
+-- Subject: Unit iscsiuio.socket has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit iscsiuio.socket has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Listening on Open-iSCSI iscsiuio Socket.
+-- Subject: Unit iscsiuio.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit iscsiuio.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting CUPS Printing Service Sockets.
+-- Subject: Unit cups.socket has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.socket has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Listening on CUPS Printing Service Sockets.
+-- Subject: Unit cups.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting Avahi mDNS/DNS-SD Stack Activation Socket.
+-- Subject: Unit avahi-daemon.socket has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit avahi-daemon.socket has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+-- Subject: Unit avahi-daemon.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit avahi-daemon.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting CUPS Printer Service Spool.
+-- Subject: Unit cups.path has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.path has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Started CUPS Printer Service Spool.
+-- Subject: Unit cups.path has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.path has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting Paths.
+-- Subject: Unit paths.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit paths.target has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Reached target Paths.
+-- Subject: Unit paths.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit paths.target has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting Daily Cleanup of Temporary Directories.
+-- Subject: Unit systemd-tmpfiles-clean.timer has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.timer has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Started Daily Cleanup of Temporary Directories.
+-- Subject: Unit systemd-tmpfiles-clean.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Trailing garbage and the end of kernel commandline, ignoring.
+Mar 04 16:31:22 localhost systemd[1]: Started dnf makecache timer.
+-- Subject: Unit dnf-makecache.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dnf-makecache.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting Timers.
+-- Subject: Unit timers.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit timers.target has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Reached target Timers.
+-- Subject: Unit timers.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit timers.target has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting D-Bus System Message Bus Socket.
+-- Subject: Unit dbus.socket has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dbus.socket has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Listening on D-Bus System Message Bus Socket.
+-- Subject: Unit dbus.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dbus.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting Sockets.
+-- Subject: Unit sockets.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sockets.target has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Reached target Sockets.
+-- Subject: Unit sockets.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sockets.target has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting Manage Sound Card State (restore and store)...
+-- Subject: Unit alsa-state.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit alsa-state.service has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Started Manage Sound Card State (restore and store).
+-- Subject: Unit alsa-state.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit alsa-state.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Started Restore Sound Card State.
+-- Subject: Unit alsa-restore.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit alsa-restore.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting Basic System.
+-- Subject: Unit basic.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit basic.target has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Reached target Basic System.
+-- Subject: Unit basic.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit basic.target has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting Accounts Service...
+-- Subject: Unit accounts-daemon.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit accounts-daemon.service has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Starting RealtimeKit Scheduling Policy Service...
+-- Subject: Unit rtkit-daemon.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rtkit-daemon.service has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+-- Subject: Unit avahi-daemon.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit avahi-daemon.service has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Started Service for virtual machines hosted on VMware.
+-- Subject: Unit vmtoolsd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vmtoolsd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting Hardware RNG Entropy Gatherer Daemon...
+-- Subject: Unit rngd.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rngd.service has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Started Hardware RNG Entropy Gatherer Daemon.
+-- Subject: Unit rngd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rngd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Started Software RAID monitoring and management.
+-- Subject: Unit mdmonitor.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit mdmonitor.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost systemd[1]: Starting Machine Check Exception Logging Daemon...
+-- Subject: Unit mcelog.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit mcelog.service has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Starting NTP client/server...
+-- Subject: Unit chronyd.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit chronyd.service has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Starting Modem Manager...
+-- Subject: Unit ModemManager.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ModemManager.service has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Starting Login Service...
+-- Subject: Unit systemd-logind.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-logind.service has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Starting D-Bus System Message Bus...
+-- Subject: Unit dbus.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dbus.service has begun starting up.
+Mar 04 16:31:22 localhost systemd[1]: Started D-Bus System Message Bus.
+-- Subject: Unit dbus.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dbus.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:22 localhost rngd[813]: Unable to open file: /dev/tpm0
+Mar 04 16:31:22 localhost chronyd[821]: chronyd version 1.31 starting
+Mar 04 16:31:22 localhost mcelog[819]: Family 6 Model 37 CPU: only decoding architectural errors
+Mar 04 16:31:22 localhost avahi-daemon[812]: Found user 'avahi' (UID 70) and group 'avahi' (GID 70).
+Mar 04 16:31:22 localhost alsactl[809]: alsactl 1.0.28 daemon started
+Mar 04 16:31:22 localhost avahi-daemon[812]: Successfully dropped root privileges.
+Mar 04 16:31:22 localhost avahi-daemon[812]: avahi-daemon 0.6.31 starting up.
+Mar 04 16:31:22 localhost alsactl[809]: /usr/sbin/alsactl: load_state:1677Cannot open /var/lib/alsa/asound.state for reading: No such file or directory
+Mar 04 16:31:22 localhost chronyd[821]: Generated key 1
+Mar 04 16:31:22 localhost ModemManager[816]: <info>  ModemManager (version 1.4.0-1.fc21) starting in system bus...
+Mar 04 16:31:23 localhost rtkit-daemon[811]: Successfully called chroot.
+Mar 04 16:31:23 localhost rtkit-daemon[811]: Successfully dropped privileges.
+Mar 04 16:31:23 localhost rtkit-daemon[811]: Successfully limited resources.
+Mar 04 16:31:23 localhost rtkit-daemon[811]: Canary thread running.
+Mar 04 16:31:23 localhost rtkit-daemon[811]: Running.
+Mar 04 16:31:23 localhost rtkit-daemon[811]: Watchdog thread running.
+Mar 04 16:31:23 localhost systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+-- Subject: Unit avahi-daemon.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit avahi-daemon.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:23 localhost systemd[1]: Started RealtimeKit Scheduling Policy Service.
+-- Subject: Unit rtkit-daemon.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rtkit-daemon.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:23 localhost systemd[1]: Starting firewalld - dynamic firewall daemon...
+-- Subject: Unit firewalld.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit firewalld.service has begun starting up.
+Mar 04 16:31:23 localhost avahi-daemon[812]: Successfully called chroot().
+Mar 04 16:31:23 localhost avahi-daemon[812]: Successfully dropped remaining capabilities.
+Mar 04 16:31:23 localhost avahi-daemon[812]: No service file found in /etc/avahi/services.
+Mar 04 16:31:23 localhost systemd[1]: Starting LSB: Init script for live image....
+-- Subject: Unit livesys.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit livesys.service has begun starting up.
+Mar 04 16:31:23 localhost avahi-daemon[812]: System host name is set to 'localhost'. This is not a suitable mDNS host name, looking for alternatives.
+Mar 04 16:31:23 localhost systemd[1]: Started Machine Check Exception Logging Daemon.
+-- Subject: Unit mcelog.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit mcelog.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:23 localhost mcelog[840]: mcelog: Family 6 Model 37 CPU: only decoding architectural errors
+Mar 04 16:31:23 localhost avahi-daemon[812]: Network interface enumeration completed.
+Mar 04 16:31:23 localhost avahi-daemon[812]: Server startup complete. Host name is linux.local. Local service cookie is 2664749628.
+Mar 04 16:31:23 localhost systemd[1]: Started NTP client/server.
+-- Subject: Unit chronyd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit chronyd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:23 localhost systemd[1]: Started Login Service.
+-- Subject: Unit systemd-logind.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-logind.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:23 localhost systemd-logind[817]: New seat seat0.
+-- Subject: A new seat seat0 is now available
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new seat seat0 has been configured and is now available.
+Mar 04 16:31:23 localhost systemd-logind[817]: Watching system buttons on /dev/input/event0 (Lid Switch)
+Mar 04 16:31:23 localhost useradd[857]: new group: name=liveuser, GID=1000
+Mar 04 16:31:23 localhost useradd[857]: new user: name=liveuser, UID=1000, GID=1000, home=/home/liveuser, shell=/bin/bash
+Mar 04 16:31:23 localhost systemd[1]: Started Modem Manager.
+-- Subject: Unit ModemManager.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ModemManager.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:23 localhost livesys[838]: Adding live user [  OK  ]
+Mar 04 16:31:23 localhost usermod[863]: add 'liveuser' to group 'wheel'
+Mar 04 16:31:23 localhost usermod[863]: add 'liveuser' to shadow group 'wheel'
+Mar 04 16:31:23 localhost dbus[818]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service'
+Mar 04 16:31:23 localhost systemd[1]: Starting Authorization Manager...
+-- Subject: Unit polkit.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit polkit.service has begun starting up.
+Mar 04 16:31:23 localhost polkitd[869]: Started polkitd version 0.112
+Mar 04 16:31:23 localhost systemd[1]: Stopped Software RAID monitoring and management.
+-- Subject: Unit mdmonitor.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit mdmonitor.service has finished shutting down.
+Mar 04 16:31:23 localhost livesys[838]: (process:879): dconf-WARNING **: failed to commit changes to dconf: Error spawning command line 'dbus-launch --autolaunch=9ca8ff4a6e3b402e9c112722f705bd4c --binary-syntax --close-stderr': Child process exited with code 1
+Mar 04 16:31:23 localhost systemd[1]: Stopped Command Scheduler.
+-- Subject: Unit crond.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit crond.service has finished shutting down.
+Mar 04 16:31:23 localhost systemd[1]: Stopped Job spooling tools.
+-- Subject: Unit atd.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit atd.service has finished shutting down.
+Mar 04 16:31:23 localhost livesys[838]: sed: can't read : No such file or directory
+Mar 04 16:31:23 localhost polkitd[869]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 04 16:31:23 localhost polkitd[869]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 04 16:31:23 localhost polkitd[869]: Finished loading, compiling and executing 5 rules
+Mar 04 16:31:23 localhost dbus[818]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Mar 04 16:31:23 localhost systemd[1]: Started Authorization Manager.
+-- Subject: Unit polkit.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit polkit.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:23 localhost polkitd[869]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 04 16:31:23 localhost accounts-daemon[810]: started daemon version 0.6.39
+Mar 04 16:31:23 localhost systemd[1]: Started Accounts Service.
+-- Subject: Unit accounts-daemon.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit accounts-daemon.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:23 localhost livesys[838]: warning: Schema 'org.freedesktop.Telepathy.Logger' has path '/apps/telepathy-logger/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:23 localhost livesys[838]: warning: Schema 'org.freedesktop.gstreamer-0.10.default-elements' has path '/desktop/gstreamer/0.10/default-elements/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:23 localhost livesys[838]: warning: Schema 'org.freedesktop.ibus' has path '/desktop/ibus/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:23 localhost livesys[838]: warning: Schema 'org.freedesktop.ibus.general' has path '/desktop/ibus/general/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:23 localhost livesys[838]: warning: Schema 'org.freedesktop.ibus.general.hotkey' has path '/desktop/ibus/general/hotkey/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:23 localhost livesys[838]: warning: Schema 'org.freedesktop.ibus.panel' has path '/desktop/ibus/panel/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.crypto.cache' has path '/desktop/gnome/crypto/cache/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.crypto.pgp' has path '/desktop/gnome/crypto/pgp/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.seahorse' has path '/apps/seahorse/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.seahorse.manager' has path '/apps/seahorse/listing/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.system.locale' has path '/system/locale/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.system.proxy' has path '/system/proxy/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.system.proxy.http' has path '/system/proxy/http/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.system.proxy.https' has path '/system/proxy/https/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.system.proxy.ftp' has path '/system/proxy/ftp/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.system.proxy.socks' has path '/system/proxy/socks/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.freedesktop.Telepathy.Logger' has path '/apps/telepathy-logger/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.freedesktop.gstreamer-0.10.default-elements' has path '/desktop/gstreamer/0.10/default-elements/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.freedesktop.ibus' has path '/desktop/ibus/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.freedesktop.ibus.general' has path '/desktop/ibus/general/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.freedesktop.ibus.general.hotkey' has path '/desktop/ibus/general/hotkey/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.freedesktop.ibus.panel' has path '/desktop/ibus/panel/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost kernel: nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.crypto.cache' has path '/desktop/gnome/crypto/cache/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.crypto.pgp' has path '/desktop/gnome/crypto/pgp/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.seahorse' has path '/apps/seahorse/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.seahorse.manager' has path '/apps/seahorse/listing/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.system.locale' has path '/system/locale/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.system.proxy' has path '/system/proxy/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.system.proxy.http' has path '/system/proxy/http/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.system.proxy.https' has path '/system/proxy/https/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.system.proxy.ftp' has path '/system/proxy/ftp/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost livesys[838]: warning: Schema 'org.gnome.system.proxy.socks' has path '/system/proxy/socks/'.  Paths starting with '/apps/', '/desktop/' or '/system/' are deprecated.
+Mar 04 16:31:24 localhost kernel: ip6_tables: (C) 2000-2006 Netfilter Core Team
+Mar 04 16:31:24 localhost systemd[1]: Started LSB: Init script for live image..
+-- Subject: Unit livesys.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit livesys.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:24 localhost systemd[1]: Starting ABRT Automated Bug Reporting Tool...
+-- Subject: Unit abrtd.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit abrtd.service has begun starting up.
+Mar 04 16:31:24 localhost systemd[1]: Started ABRT Automated Bug Reporting Tool.
+-- Subject: Unit abrtd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit abrtd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:24 localhost systemd[1]: Starting Install ABRT coredump hook...
+-- Subject: Unit abrt-ccpp.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit abrt-ccpp.service has begun starting up.
+Mar 04 16:31:24 localhost systemd[1]: Started Harvest vmcores for ABRT.
+-- Subject: Unit abrt-vmcore.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit abrt-vmcore.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:24 localhost systemd[1]: Started ABRT Xorg log watcher.
+-- Subject: Unit abrt-xorg.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit abrt-xorg.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:24 localhost systemd[1]: Starting ABRT kernel log watcher...
+-- Subject: Unit abrt-oops.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit abrt-oops.service has begun starting up.
+Mar 04 16:31:24 localhost systemd[1]: Started ABRT kernel log watcher.
+-- Subject: Unit abrt-oops.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit abrt-oops.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:24 localhost systemd[1]: Starting SYSV: Late init script for live image....
+-- Subject: Unit livesys-late.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit livesys-late.service has begun starting up.
+Mar 04 16:31:24 localhost systemd[1]: Started Install ABRT coredump hook.
+-- Subject: Unit abrt-ccpp.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit abrt-ccpp.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:24 localhost systemd[1]: Started SYSV: Late init script for live image..
+-- Subject: Unit livesys-late.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit livesys-late.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:24 localhost kernel: Ebtables v2.0 registered
+Mar 04 16:31:24 localhost kernel: bridge: automatic filtering via arp/ip/ip6tables has been deprecated. Update your scripts to load br_netfilter if you need this.
+Mar 04 16:31:24 localhost systemd[1]: Started firewalld - dynamic firewall daemon.
+-- Subject: Unit firewalld.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit firewalld.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:24 localhost systemd[1]: Starting Network Manager...
+-- Subject: Unit NetworkManager.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager.service has begun starting up.
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> NetworkManager (version 0.9.10.0-14.git20140704.fc21) is starting...
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> Read config: /etc/NetworkManager/NetworkManager.conf and conf.d: 20-connectivity-fedora.conf
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> WEXT support is enabled
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> VPN: loaded org.freedesktop.NetworkManager.pptp
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> VPN: loaded org.freedesktop.NetworkManager.openconnect
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> VPN: loaded org.freedesktop.NetworkManager.vpnc
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> VPN: loaded org.freedesktop.NetworkManager.openvpn
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> Acquired D-Bus service com.redhat.ifcfgrh1
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> Loaded plugin ifcfg-rh: (c) 2007 - 2013 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> Loaded plugin keyfile: (c) 2007 - 2013 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> parsing /etc/sysconfig/network-scripts/ifcfg-lo ...
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> monitoring kernel firmware directory '/lib/firmware'.
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> WiFi hardware radio set enabled
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> WWAN hardware radio set enabled
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> Loaded device plugin: /usr/lib/NetworkManager/libnm-device-plugin-wwan.so
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> Loaded device plugin: /usr/lib/NetworkManager/libnm-device-plugin-adsl.so
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> Loaded device plugin: /usr/lib/NetworkManager/libnm-device-plugin-bluetooth.so
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> Loaded device plugin: /usr/lib/NetworkManager/libnm-device-plugin-wifi.so
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> WiFi enabled by radio killswitch; enabled by state file
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> WWAN enabled by radio killswitch; enabled by state file
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> WiMAX enabled by radio killswitch; enabled by state file
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> Networking is enabled by state file
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> (lo): link connected
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> (lo): carrier is ON
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> (lo): new Generic device (driver: 'unknown' ifindex: 1)
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> (lo): exported as /org/freedesktop/NetworkManager/Devices/0
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> startup complete
+Mar 04 16:31:24 localhost systemd[1]: Started Network Manager.
+-- Subject: Unit NetworkManager.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:24 localhost systemd[1]: Starting Network.
+-- Subject: Unit network.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit network.target has begun starting up.
+Mar 04 16:31:24 localhost systemd[1]: Reached target Network.
+-- Subject: Unit network.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit network.target has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:24 localhost systemd[1]: Started Login and scanning of iSCSI devices.
+-- Subject: Unit iscsi.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit iscsi.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:24 localhost systemd[1]: Starting Remote File Systems (Pre).
+-- Subject: Unit remote-fs-pre.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit remote-fs-pre.target has begun starting up.
+Mar 04 16:31:24 localhost systemd[1]: Reached target Remote File Systems (Pre).
+-- Subject: Unit remote-fs-pre.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit remote-fs-pre.target has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:24 localhost systemd[1]: Starting Remote File Systems.
+-- Subject: Unit remote-fs.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit remote-fs.target has begun starting up.
+Mar 04 16:31:24 localhost systemd[1]: Reached target Remote File Systems.
+-- Subject: Unit remote-fs.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit remote-fs.target has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:24 localhost systemd[1]: Starting Permit User Sessions...
+-- Subject: Unit systemd-user-sessions.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-user-sessions.service has begun starting up.
+Mar 04 16:31:24 localhost systemd[1]: Starting Virtualization daemon...
+-- Subject: Unit libvirtd.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit libvirtd.service has begun starting up.
+Mar 04 16:31:24 localhost systemd[1]: Started Permit User Sessions.
+-- Subject: Unit systemd-user-sessions.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-user-sessions.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:24 localhost systemd[1]: Starting GNOME Display Manager...
+-- Subject: Unit gdm.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit gdm.service has begun starting up.
+Mar 04 16:31:24 localhost systemd[1]: Starting Wait for Plymouth Boot Screen to Quit...
+-- Subject: Unit plymouth-quit-wait.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-quit-wait.service has begun starting up.
+Mar 04 16:31:24 localhost NetworkManager[974]: <info> ModemManager available in the bus
+Mar 04 16:31:24 localhost systemd[1]: Started GNOME Display Manager.
+-- Subject: Unit gdm.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit gdm.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:24 localhost libvirtd[1061]: libvirt version: 1.2.9.1, package: 1.fc21 (Fedora Project, 2014-11-16-00:47:41, buildvm-09.phx2.fedoraproject.org)
+Mar 04 16:31:24 localhost libvirtd[1061]: Module /usr/lib/libvirt/connection-driver/libvirt_driver_vbox_network.so not accessible
+Mar 04 16:31:24 localhost gdm-Xorg-:0[1106]: X.Org X Server 1.16.2
+Mar 04 16:31:24 localhost gdm-Xorg-:0[1106]: Release Date: 2014-11-10
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: X Protocol Version 11, Revision 0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: Build Operating System:  3.17.2-200.fc20.x86_64
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: Current Operating System: Linux localhost 3.18.0-1.1awb.i686 #1 SMP Tue Dec 9 20:10:40 UTC 2014 i686
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: Kernel command line: BOOT_IMAGE=/isolinux/vmlinuz0 root=live:LABEL=20141209-fedlet-i686 ro rd.live.image rhgb nomodeset
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: Build Date: 21 November 2014  01:16:19AM
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: Build ID: xorg-x11-server 1.16.2-1.fc21
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: Current version of pixman: 0.32.6
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: Before reporting problems, check http://wiki.x.org
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: to make sure that you have the latest version.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: Markers: (--) probed, (**) from config file, (==) default setting,
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (++) from command line, (!!) notice, (II) informational,
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (++) Log file: "/dev/null", Time: Wed Mar  4 16:31:24 2015
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+Mar 04 16:31:25 localhost libvirtd[1061]: Module /usr/lib/libvirt/connection-driver/libvirt_driver_vbox_storage.so not accessible
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) No Layout section.  Using the first Screen section.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) No screen section available. Using defaults.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) |-->Screen "Default Screen Section" (0)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) |   |-->Monitor "<default monitor>"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) No monitor specified for screen "Default Screen Section".
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: Using a default monitor configuration.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) Automatically adding devices
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) Automatically enabling devices
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) Automatically adding GPU devices
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) FontPath set to:
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: catalogue:/etc/X11/fontpath.d,
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: built-ins
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) ModulePath set to "/usr/lib/xorg/modules"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) The server relies on udev to provide the list of input devices.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: If no devices become available, reconfigure udev or disable AutoAddDevices.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Loader magic: 0x8281740
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Module ABI versions:
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: X.Org ANSI C Emulation: 0.4
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: X.Org Video Driver: 18.0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: X.Org XInput driver : 21.0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: X.Org Server Extension : 8.0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (EE) systemd-logind: failed to get session: PID 1106 does not belong to any known session
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) PCI:*(0:0:2:0) 8086:0f31:8086:0f31 rev 15, Mem @ 0x90000000/4194304, 0x80000000/268435456, I/O @ 0x00001000/8, BIOS @ 0x????????/131072
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) LoadModule: "glx"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Module glx: vendor="X.Org Foundation"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: compiled for 1.16.2, module version = 1.0.0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: ABI class: X.Org Server Extension, version 8.0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) AIGLX enabled
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) Matched intel as autoconfigured driver 0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) Matched modesetting as autoconfigured driver 1
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) Matched fbdev as autoconfigured driver 2
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) Matched vesa as autoconfigured driver 3
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) Assigned the driver to the xf86ConfigLayout
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) LoadModule: "intel"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Loading /usr/lib/xorg/modules/drivers/intel_drv.so
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Module intel: vendor="X.Org Foundation"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: compiled for 1.16.1, module version = 2.99.916
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: Module class: X.Org Video Driver
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: ABI class: X.Org Video Driver, version 18.0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) LoadModule: "modesetting"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Module modesetting: vendor="X.Org Foundation"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: compiled for 1.16.0, module version = 0.9.0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: Module class: X.Org Video Driver
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: ABI class: X.Org Video Driver, version 18.0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) LoadModule: "fbdev"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Module fbdev: vendor="X.Org Foundation"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: compiled for 1.16.0, module version = 0.4.3
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: Module class: X.Org Video Driver
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: ABI class: X.Org Video Driver, version 18.0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) LoadModule: "vesa"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Module vesa: vendor="X.Org Foundation"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: compiled for 1.16.0, module version = 2.3.2
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: Module class: X.Org Video Driver
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: ABI class: X.Org Video Driver, version 18.0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) intel: Driver for Intel(R) Integrated Graphics Chipsets:
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: i810, i810-dc100, i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G,
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: 915G, E7221 (i915), 915GM, 945G, 945GM, 945GME, Pineview GM,
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: Pineview G, 965G, G35, 965Q, 946GZ, 965GM, 965GME/GLE, G33, Q35, Q33,
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: GM45, 4 Series, G45/G43, Q45/Q43, G41, B43
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) intel: Driver for Intel(R) HD Graphics: 2000-6000
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) intel: Driver for Intel(R) Iris(TM) Graphics: 5100, 6100
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) intel: Driver for Intel(R) Iris(TM) Pro Graphics: 5200, 6200, P6300
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) FBDEV: driver for framebuffer: fbdev
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) VESA: driver for VESA chipsets: vesa
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (++) using VT number 1
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (EE) open /dev/dri/card0: No such file or directory
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (WW) Falling back to old probe method for modesetting
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (EE) open /dev/dri/card0: No such file or directory
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Loading sub module "fbdevhw"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) LoadModule: "fbdevhw"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Module fbdevhw: vendor="X.Org Foundation"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: compiled for 1.16.2, module version = 0.0.2
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: ABI class: X.Org Video Driver, version 18.0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) FBDEV(1): claimed PCI slot 0@0:2:0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) FBDEV(1): using default device
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (WW) Falling back to old probe method for vesa
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (EE) Screen 0 deleted because of no matching config section.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) UnloadModule: "modesetting"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) FBDEV(0): Creating default Display subsection in Screen section
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: "Default Screen Section" for depth/fbbpp 24/32
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) FBDEV(0): Depth 24, (==) framebuffer bpp 32
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) FBDEV(0): RGB weight 888
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) FBDEV(0): Default visual is TrueColor
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) FBDEV(0): Using gamma correction (1.0, 1.0, 1.0)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) FBDEV(0): hardware: EFI VGA (video memory: 1876kB)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) FBDEV(0): checking modes against framebuffer device...
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) FBDEV(0): checking modes against monitor...
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) FBDEV(0): Virtual size is 800x600 (pitch 800)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) FBDEV(0):  Built-in mode "current": 48.0 MHz, 46.9 kHz, 75.1 Hz
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) FBDEV(0): Modeline "current"x0.0   48.00  800 832 928 1024  600 604 608 624 -hsync -vsync -csync (46.9 kHz b)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) FBDEV(0): DPI set to (96, 96)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Loading sub module "fb"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) LoadModule: "fb"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Loading /usr/lib/xorg/modules/libfb.so
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Module fb: vendor="X.Org Foundation"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: compiled for 1.16.2, module version = 1.0.0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: ABI class: X.Org ANSI C Emulation, version 0.4
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) FBDEV(0): using shadow framebuffer
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Loading sub module "shadow"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) LoadModule: "shadow"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Loading /usr/lib/xorg/modules/libshadow.so
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Module shadow: vendor="X.Org Foundation"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: compiled for 1.16.2, module version = 1.1.0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: ABI class: X.Org ANSI C Emulation, version 0.4
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) UnloadModule: "vesa"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Unloading vesa
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) Depth 24 pixmap format is 32 bpp
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (EE) FBDEV(0): FBIOBLANK: Invalid argument
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) FBDEV(0): Backing store enabled
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) FBDEV(0): DPMS enabled
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (==) RandR enabled
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) SELinux: Disabled by boolean
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) AIGLX: Screen 0 is not DRI2 capable
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (EE) AIGLX: reverting to software rendering
+Mar 04 16:31:25 localhost libvirtd[1061]: Module /usr/lib/libvirt/connection-driver/libvirt_driver_xen.so not accessible
+Mar 04 16:31:25 localhost libvirtd[1061]: Module /usr/lib/libvirt/connection-driver/libvirt_driver_libxl.so not accessible
+Mar 04 16:31:25 localhost libvirtd[1061]: Module /usr/lib/libvirt/connection-driver/libvirt_driver_lxc.so not accessible
+Mar 04 16:31:25 localhost libvirtd[1061]: Module /usr/lib/libvirt/connection-driver/libvirt_driver_uml.so not accessible
+Mar 04 16:31:25 localhost libvirtd[1061]: Module /usr/lib/libvirt/connection-driver/libvirt_driver_vbox.so not accessible
+Mar 04 16:31:25 localhost systemd[1]: Started Virtualization daemon.
+-- Subject: Unit libvirtd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit libvirtd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) AIGLX: Loaded and initialized swrast
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) GLX: Initialized DRISWRAST GL provider for screen 0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) config/udev: Adding input device Lid Switch (/dev/input/event0)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) No input driver specified, ignoring this device.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) This device may have been added with another device file.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) config/udev: Adding input device HID 1017:1006 (/dev/input/event1)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: Applying InputClass "evdev keyboard catchall"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) LoadModule: "evdev"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Module evdev: vendor="X.Org Foundation"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: compiled for 1.16.0, module version = 2.9.0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: Module class: X.Org XInput Driver
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: ABI class: X.Org XInput driver, version 21.0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Using input driver 'evdev' for 'HID 1017:1006'
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: always reports core events
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) evdev: HID 1017:1006: Device: "/dev/input/event1"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Vendor 0x1017 Product 0x1006
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Found keys
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) evdev: HID 1017:1006: Configuring as keyboard
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/0003:1017:1006.0001/input/input1/event1"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) XINPUT: Adding extended input device "HID 1017:1006" (type: KEYBOARD, id 6)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_rules" "evdev"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_model" "pc104"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_layout" "us"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) config/udev: Adding input device HID 1017:1006 (/dev/input/event2)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: Applying InputClass "evdev pointer catchall"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: Applying InputClass "evdev keyboard catchall"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Using input driver 'evdev' for 'HID 1017:1006'
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: always reports core events
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) evdev: HID 1017:1006: Device: "/dev/input/event2"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Vendor 0x1017 Product 0x1006
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Found 9 mouse buttons
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Found scroll wheel(s)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Found relative axes
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Found x and y relative axes
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Found absolute axes
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) evdev: HID 1017:1006: Forcing absolute x/y axes to exist.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Found keys
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) evdev: HID 1017:1006: Configuring as mouse
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) evdev: HID 1017:1006: Configuring as keyboard
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) evdev: HID 1017:1006: Adding scrollwheel support
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) evdev: HID 1017:1006: YAxisMapping: buttons 4 and 5
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) evdev: HID 1017:1006: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.1/0003:1017:1006.0002/input/input2/event2"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) XINPUT: Adding extended input device "HID 1017:1006" (type: KEYBOARD, id 7)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_rules" "evdev"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_model" "pc104"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_layout" "us"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) evdev: HID 1017:1006: initialized for relative axes.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (WW) evdev: HID 1017:1006: ignoring absolute axes.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: (accel) keeping acceleration scheme 1
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: (accel) acceleration profile 0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: (accel) acceleration factor: 2.000
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: (accel) acceleration threshold: 4
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) config/udev: Adding input device HID 1017:1006 (/dev/input/mouse0)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) No input driver specified, ignoring this device.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) This device may have been added with another device file.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) config/udev: Adding input device FTSC1000:00 2808:5059 (/dev/input/event5)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) FTSC1000:00 2808:5059: Applying InputClass "evdev touchscreen catchall"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Using input driver 'evdev' for 'FTSC1000:00 2808:5059'
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) FTSC1000:00 2808:5059: always reports core events
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) evdev: FTSC1000:00 2808:5059: Device: "/dev/input/event5"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: FTSC1000:00 2808:5059: Vendor 0x2808 Product 0x5059
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: FTSC1000:00 2808:5059: Found absolute axes
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: FTSC1000:00 2808:5059: Found absolute multitouch axes
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) evdev: FTSC1000:00 2808:5059: No buttons found, faking one.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: FTSC1000:00 2808:5059: Found x and y absolute axes
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: FTSC1000:00 2808:5059: Found absolute touchscreen
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) evdev: FTSC1000:00 2808:5059: Configuring as touchscreen
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) evdev: FTSC1000:00 2808:5059: YAxisMapping: buttons 4 and 5
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) evdev: FTSC1000:00 2808:5059: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "config_info" "udev:/sys/devices/platform/80860F41:03/i2c-3/i2c-FTSC1000:00/0018:2808:5059.0003/input/input5/event5"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) XINPUT: Adding extended input device "FTSC1000:00 2808:5059" (type: TOUCHSCREEN, id 8)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) evdev: FTSC1000:00 2808:5059: initialized for absolute axes.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) FTSC1000:00 2808:5059: (accel) keeping acceleration scheme 1
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) FTSC1000:00 2808:5059: (accel) acceleration profile 0
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) FTSC1000:00 2808:5059: (accel) acceleration factor: 2.000
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) FTSC1000:00 2808:5059: (accel) acceleration threshold: 4
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) config/udev: Adding input device FTSC1000:00 2808:5059 (/dev/input/mouse1)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) No input driver specified, ignoring this device.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) This device may have been added with another device file.
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) config/udev: Adding input device gpio-keys (/dev/input/event3)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) gpio-keys: Applying InputClass "evdev keyboard catchall"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Using input driver 'evdev' for 'gpio-keys'
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) gpio-keys: always reports core events
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) evdev: gpio-keys: Device: "/dev/input/event3"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: gpio-keys: Vendor 0x1 Product 0x1
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: gpio-keys: Found keys
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) evdev: gpio-keys: Configuring as keyboard
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "config_info" "udev:/sys/devices/platform/gpio-keys.0.auto/input/input3/event3"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) XINPUT: Adding extended input device "gpio-keys" (type: KEYBOARD, id 9)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_rules" "evdev"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_model" "pc104"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_layout" "us"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) config/udev: Adding input device gpio-keys (/dev/input/event4)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) gpio-keys: Applying InputClass "evdev keyboard catchall"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) Using input driver 'evdev' for 'gpio-keys'
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) gpio-keys: always reports core events
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) evdev: gpio-keys: Device: "/dev/input/event4"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: gpio-keys: Vendor 0x1 Product 0x1
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (--) evdev: gpio-keys: Found keys
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) evdev: gpio-keys: Configuring as keyboard
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "config_info" "udev:/sys/devices/platform/gpio-keys.1.auto/input/input4/event4"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (II) XINPUT: Adding extended input device "gpio-keys" (type: KEYBOARD, id 10)
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_rules" "evdev"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_model" "pc104"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_layout" "us"
+Mar 04 16:31:25 localhost gdm-Xorg-:0[1106]: (EE) FBDEV(0): FBIOBLANK: Invalid argument
+Mar 04 16:31:26 localhost systemd[1]: Received SIGRTMIN+21 from PID 401 (plymouthd).
+Mar 04 16:31:26 localhost systemd[1]: Started Wait for Plymouth Boot Screen to Quit.
+-- Subject: Unit plymouth-quit-wait.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-quit-wait.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:26 localhost systemd[1]: Starting Multi-User System.
+-- Subject: Unit multi-user.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit multi-user.target has begun starting up.
+Mar 04 16:31:26 localhost systemd[1]: Reached target Multi-User System.
+-- Subject: Unit multi-user.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit multi-user.target has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:26 localhost systemd[1]: Starting Graphical Interface.
+-- Subject: Unit graphical.target has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit graphical.target has begun starting up.
+Mar 04 16:31:26 localhost systemd[1]: Reached target Graphical Interface.
+-- Subject: Unit graphical.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit graphical.target has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:26 localhost systemd[1]: Starting Stop Read-Ahead Data Collection 10s After Completed Startup.
+-- Subject: Unit systemd-readahead-done.timer has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-readahead-done.timer has begun starting up.
+Mar 04 16:31:26 localhost systemd[1]: Started Stop Read-Ahead Data Collection 10s After Completed Startup.
+-- Subject: Unit systemd-readahead-done.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-readahead-done.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:26 localhost systemd[1]: Starting Update UTMP about System Runlevel Changes...
+-- Subject: Unit systemd-update-utmp-runlevel.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp-runlevel.service has begun starting up.
+Mar 04 16:31:26 localhost systemd[1]: Started Update UTMP about System Runlevel Changes.
+-- Subject: Unit systemd-update-utmp-runlevel.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp-runlevel.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:26 localhost systemd[1]: Startup finished in 3.097s (kernel) + 7.175s (initrd) + 14.396s (userspace) = 24.669s.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- All system services necessary queued for starting at boot have been
+-- successfully started. Note that this does not mean that the machine is
+-- now idle as services might still be busy with completing start-up.
+-- 
+-- Kernel start-up required 3097063 microseconds.
+-- 
+-- Initial RAM disk start-up required 7175789 microseconds.
+-- 
+-- Userspace start-up required 14396812 microseconds.
+Mar 04 16:31:26 localhost kernel: SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+Mar 04 16:31:26 localhost systemd[1]: Starting user-1000.slice.
+-- Subject: Unit user-1000.slice has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-1000.slice has begun starting up.
+Mar 04 16:31:26 localhost systemd[1]: Created slice user-1000.slice.
+-- Subject: Unit user-1000.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-1000.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:26 localhost systemd[1]: Starting User Manager for UID 1000...
+-- Subject: Unit user@1000.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@1000.service has begun starting up.
+Mar 04 16:31:26 localhost systemd-logind[817]: New session 1 of user liveuser.
+-- Subject: A new session 1 has been created for user liveuser
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 1 has been created for the user liveuser.
+-- 
+-- The leading process of the session is 1318.
+Mar 04 16:31:26 localhost systemd[1]: Starting Session 1 of user liveuser.
+-- Subject: Unit session-1.scope has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-1.scope has begun starting up.
+Mar 04 16:31:26 localhost systemd[1]: Started Session 1 of user liveuser.
+-- Subject: Unit session-1.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-1.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:26 localhost systemd[1330]: pam_unix(systemd-user:session): session opened for user liveuser by (uid=0)
+Mar 04 16:31:26 localhost systemd[1330]: Starting Paths.
+-- Subject: Unit UNIT has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has begun starting up.
+Mar 04 16:31:26 localhost systemd[1330]: Reached target Paths.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:26 localhost systemd[1330]: Starting Timers.
+-- Subject: Unit UNIT has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has begun starting up.
+Mar 04 16:31:26 localhost systemd[1330]: Reached target Timers.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:26 localhost systemd[1330]: Starting Sockets.
+-- Subject: Unit UNIT has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has begun starting up.
+Mar 04 16:31:26 localhost systemd[1330]: Reached target Sockets.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:26 localhost systemd[1330]: Starting Basic System.
+-- Subject: Unit UNIT has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has begun starting up.
+Mar 04 16:31:26 localhost systemd[1330]: Reached target Basic System.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:26 localhost systemd[1330]: Starting Default.
+-- Subject: Unit UNIT has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has begun starting up.
+Mar 04 16:31:26 localhost systemd[1330]: Reached target Default.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:26 localhost systemd[1330]: Startup finished in 22ms.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- All system services necessary queued for starting at boot have been
+-- successfully started. Note that this does not mean that the machine is
+-- now idle as services might still be busy with completing start-up.
+-- 
+-- Kernel start-up required KERNEL_USEC microseconds.
+-- 
+-- Initial RAM disk start-up required INITRD_USEC microseconds.
+-- 
+-- Userspace start-up required 22996 microseconds.
+Mar 04 16:31:26 localhost systemd[1]: Started User Manager for UID 1000.
+-- Subject: Unit user@1000.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@1000.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:26 localhost gdm-autologin][1318]: pam_unix(gdm-autologin:session): session opened for user liveuser by (uid=0)
+Mar 04 16:31:26 localhost /etc/gdm/Xsession[1335]: cp: cannot stat ‘/usr/share/applications/liveinst.desktop’: No such file or directory
+Mar 04 16:31:26 localhost org.a11y.Bus[1345]: Activating service name='org.a11y.atspi.Registry'
+Mar 04 16:31:26 localhost org.a11y.Bus[1345]: Successfully activated service 'org.a11y.atspi.Registry'
+Mar 04 16:31:26 localhost org.a11y.atspi.Registry[1384]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Mar 04 16:31:26 localhost org.a11y.atspi.Registry[1384]: Xlib:  extension "XEVIE" missing on display ":0".
+Mar 04 16:31:26 localhost /etc/gdm/Xsession[1335]: gnome-session-is-accelerated: llvmpipe detected.
+Mar 04 16:31:26 localhost kernel: fuse init (API version 7.23)
+Mar 04 16:31:26 localhost systemd[1]: Mounting FUSE Control File System...
+-- Subject: Unit sys-fs-fuse-connections.mount has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sys-fs-fuse-connections.mount has begun starting up.
+Mar 04 16:31:26 localhost kernel: SELinux: initialized (dev fusectl, type fusectl), uses genfs_contexts
+Mar 04 16:31:26 localhost systemd[1]: Mounted FUSE Control File System.
+-- Subject: Unit sys-fs-fuse-connections.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sys-fs-fuse-connections.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:26 localhost kernel: SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+Mar 04 16:31:27 localhost gnome-keyring-daemon[1410]: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+Mar 04 16:31:27 localhost gnome-keyring-daemon[1413]: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+Mar 04 16:31:27 localhost gnome-keyring-daemon[1416]: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+Mar 04 16:31:27 localhost gnome-keyring-daemon[1418]: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+Mar 04 16:31:27 localhost gnome-session[1335]: ** Message: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+Mar 04 16:31:27 localhost gnome-session[1335]: ** Message: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+Mar 04 16:31:27 localhost gnome-session[1335]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Mar 04 16:31:27 localhost gnome-session[1335]: W: [pulseaudio] authkey.c: Failed to open cookie file '/home/liveuser/.config/pulse/cookie': No such file or directory
+Mar 04 16:31:27 localhost gnome-session[1335]: W: [pulseaudio] authkey.c: Failed to load authorization key '/home/liveuser/.config/pulse/cookie': No such file or directory
+Mar 04 16:31:27 localhost gnome-session[1335]: W: [pulseaudio] authkey.c: Failed to open cookie file '/home/liveuser/.pulse-cookie': No such file or directory
+Mar 04 16:31:27 localhost gnome-session[1335]: W: [pulseaudio] authkey.c: Failed to load authorization key '/home/liveuser/.pulse-cookie': No such file or directory
+Mar 04 16:31:27 localhost gnome-session[1335]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Mar 04 16:31:27 localhost gnome-session[1335]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Mar 04 16:31:27 localhost gnome-session[1335]: GPG_AGENT_INFO=/run/user/1000/keyring/gpg:0:1
+Mar 04 16:31:27 localhost rtkit-daemon[811]: Successfully made thread 1437 of process 1437 (/usr/bin/pulseaudio) owned by '1000' high priority at nice level -11.
+Mar 04 16:31:27 localhost rtkit-daemon[811]: Supervising 1 threads of 1 processes of 1 users.
+Mar 04 16:31:27 localhost dbus[818]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service'
+Mar 04 16:31:27 localhost dbus[818]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Mar 04 16:31:27 localhost systemd[1]: Starting Bluetooth service...
+-- Subject: Unit bluetooth.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit bluetooth.service has begun starting up.
+Mar 04 16:31:27 localhost systemd[1]: Starting Daemon for power management...
+-- Subject: Unit upower.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit upower.service has begun starting up.
+Mar 04 16:31:27 localhost bluetoothd[1444]: Bluetooth daemon 5.23
+Mar 04 16:31:27 localhost dbus[818]: [system] Successfully activated service 'org.bluez'
+Mar 04 16:31:27 localhost systemd[1]: Started Bluetooth service.
+-- Subject: Unit bluetooth.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit bluetooth.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:27 localhost dbus[818]: [system] Successfully activated service 'org.freedesktop.UPower'
+Mar 04 16:31:27 localhost systemd[1]: Started Daemon for power management.
+-- Subject: Unit upower.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit upower.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:27 localhost upowerd[1445]: (upowerd:1445): UPower-Linux-WARNING **: no valid voltage value found for device /sys/devices/LNXSYSTM:00/LNXSYBUS:00/80860F41:04/PNP0C0A:01/power_supply/BMBT, assuming 10V
+Mar 04 16:31:27 localhost upowerd[1445]: (upowerd:1445): UPower-Linux-WARNING **: Setting /sys/devices/LNXSYSTM:00/LNXSYBUS:00/80860F41:04/PNP0C0A:01/power_supply/BMBT state empty as unknown and very low
+Mar 04 16:31:27 localhost kernel: Bluetooth: Core ver 2.19
+Mar 04 16:31:27 localhost kernel: NET: Registered protocol family 31
+Mar 04 16:31:27 localhost kernel: Bluetooth: HCI device and connection manager initialized
+Mar 04 16:31:27 localhost kernel: Bluetooth: HCI socket layer initialized
+Mar 04 16:31:27 localhost kernel: Bluetooth: L2CAP socket layer initialized
+Mar 04 16:31:27 localhost kernel: Bluetooth: SCO socket layer initialized
+Mar 04 16:31:27 localhost bluetoothd[1444]: Starting SDP server
+Mar 04 16:31:27 localhost kernel: Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Mar 04 16:31:27 localhost kernel: Bluetooth: BNEP filters: protocol multicast
+Mar 04 16:31:27 localhost kernel: Bluetooth: BNEP socket layer initialized
+Mar 04 16:31:27 localhost dbus[818]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Mar 04 16:31:27 localhost bluetoothd[1444]: Bluetooth management interface 1.7 initialized
+Mar 04 16:31:27 localhost systemd[1]: Starting Hostname Service...
+-- Subject: Unit systemd-hostnamed.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hostnamed.service has begun starting up.
+Mar 04 16:31:27 localhost NetworkManager[974]: <info> use BlueZ version 5
+Mar 04 16:31:27 localhost kernel: SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+Mar 04 16:31:27 localhost dbus[818]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Mar 04 16:31:27 localhost systemd[1]: Started Hostname Service.
+-- Subject: Unit systemd-hostnamed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hostnamed.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:27 localhost dbus[818]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service'
+Mar 04 16:31:27 localhost systemd[1]: Starting Manage, Install and Generate Color Profiles...
+-- Subject: Unit colord.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit colord.service has begun starting up.
+Mar 04 16:31:27 localhost dbus[818]: [system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service'
+Mar 04 16:31:27 localhost systemd[1]: Starting Disk Manager...
+-- Subject: Unit udisks2.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit udisks2.service has begun starting up.
+Mar 04 16:31:27 localhost colord[1471]: Using mapping database file /var/lib/colord/mapping.db
+Mar 04 16:31:27 localhost udisksd[1474]: udisks daemon version 2.1.3 starting
+Mar 04 16:31:27 localhost colord[1471]: Using device database file /var/lib/colord/storage.db
+Mar 04 16:31:27 localhost colord[1471]: Using profile database file /var/lib/colord/storage.db
+Mar 04 16:31:27 localhost colord[1471]: loaded plugin libcd_plugin_camera.so
+Mar 04 16:31:27 localhost colord[1471]: loaded plugin libcd_plugin_scanner.so
+Mar 04 16:31:27 localhost colord[1471]: Daemon ready for requests
+Mar 04 16:31:27 localhost dbus[818]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+Mar 04 16:31:27 localhost systemd[1]: Started Manage, Install and Generate Color Profiles.
+-- Subject: Unit colord.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit colord.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:27 localhost systemd[1]: Starting CUPS Printing Service...
+-- Subject: Unit cups.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has begun starting up.
+Mar 04 16:31:27 localhost colord[1471]: Device added: sysfs-HP-v250w
+Mar 04 16:31:27 localhost systemd[1]: Started CUPS Printing Service.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:27 localhost dbus[818]: [system] Successfully activated service 'org.freedesktop.UDisks2'
+Mar 04 16:31:27 localhost udisksd[1474]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Mar 04 16:31:27 localhost systemd[1]: Started Disk Manager.
+-- Subject: Unit udisks2.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit udisks2.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:27 localhost dbus[818]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service'
+Mar 04 16:31:27 localhost systemd[1]: Starting Locale Service...
+-- Subject: Unit systemd-localed.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-localed.service has begun starting up.
+Mar 04 16:31:27 localhost kernel: SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+Mar 04 16:31:27 localhost dbus[818]: [system] Successfully activated service 'org.freedesktop.locale1'
+Mar 04 16:31:27 localhost systemd[1]: Started Locale Service.
+-- Subject: Unit systemd-localed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-localed.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:28 localhost kernel: SysRq : HELP : loglevel(0-9) reboot(b) crash(c) terminate-all-tasks(e) memory-full-oom-kill(f) kill-all-tasks(i) thaw-filesystems(j) sak(k) show-backtrace-all-active-cpus(l) show-memory-usage(m) nice-all-RT-tasks(n) poweroff(o) show-registers(p) show-all-timers(q) unraw(r) sync(s) show-task-states(t) unmount(u) show-blocked-tasks(w) dump-ftrace-buffer(z) 
+Mar 04 16:31:29 localhost dbus[818]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service'
+Mar 04 16:31:29 localhost systemd[1]: Starting Location Lookup Service...
+-- Subject: Unit geoclue.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit geoclue.service has begun starting up.
+Mar 04 16:31:29 localhost dbus[818]: [system] Activating via systemd: service name='fi.w1.wpa_supplicant1' unit='wpa_supplicant.service'
+Mar 04 16:31:29 localhost systemd[1]: Configuration file /usr/lib/systemd/system/wpa_supplicant.service is marked executable. Please remove executable permission bits. Proceeding anyway.
+Mar 04 16:31:29 localhost systemd[1]: Starting WPA Supplicant daemon...
+-- Subject: Unit wpa_supplicant.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit wpa_supplicant.service has begun starting up.
+Mar 04 16:31:29 localhost kernel: SysRq : HELP : loglevel(0-9) reboot(b) crash(c) terminate-all-tasks(e) memory-full-oom-kill(f) kill-all-tasks(i) thaw-filesystems(j) sak(k) show-backtrace-all-active-cpus(l) show-memory-usage(m) nice-all-RT-tasks(n) poweroff(o) show-registers(p) show-all-timers(q) unraw(r) sync(s) show-task-states(t) unmount(u) show-blocked-tasks(w) dump-ftrace-buffer(z) 
+Mar 04 16:31:29 localhost polkitd[869]: Registered Authentication Agent for unix-session:1 (system bus name :1.28 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 04 16:31:29 localhost dbus[818]: [system] Successfully activated service 'fi.w1.wpa_supplicant1'
+Mar 04 16:31:29 localhost NetworkManager[974]: <info> wpa_supplicant started
+Mar 04 16:31:29 localhost systemd[1]: Started WPA Supplicant daemon.
+-- Subject: Unit wpa_supplicant.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit wpa_supplicant.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:29 localhost dbus[818]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+Mar 04 16:31:29 localhost systemd[1]: Started Location Lookup Service.
+-- Subject: Unit geoclue.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit geoclue.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:29 localhost org.gnome.OnlineAccounts[1345]: goa-daemon-Message: goa-daemon version 3.14.2 starting
+Mar 04 16:31:29 localhost org.gnome.OnlineAccounts[1345]: (goa-daemon:1550): libgoaidentity-WARNING **: GoaKerberosIdentityManager: Using polling for change notification for credential cache type 'KEYRING'
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: Saving system-proxy
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: :
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: : [Data Source]
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: : DisplayName=Default Proxy Settings
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: : Enabled=true
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: : Parent=
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: :
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: : [Proxy]
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: : Method=default
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: : IgnoreHosts=localhost;127.0.0.0/8;::1;
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: - :
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: + : AutoconfigUrl=
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: + : FtpHost=
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: + : FtpPort=0
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: + : HttpAuthPassword=
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: + : HttpAuthUser=
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: + : HttpHost=
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: + : HttpPort=8080
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: + : HttpUseAuth=false
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: + : HttpsHost=
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: + : HttpsPort=0
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: + : SocksHost=
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: + : SocksPort=0
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: + :
+Mar 04 16:31:29 localhost org.gnome.evolution.dataserver.Sources3[1345]: Bus name 'org.gnome.evolution.dataserver.Sources3' acquired.
+Mar 04 16:31:29 localhost org.gtk.Private.AfcVolumeMonitor[1345]: Volume monitor alive
+Mar 04 16:31:29 localhost dbus[818]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service'
+Mar 04 16:31:29 localhost systemd[1]: Starting PackageKit Daemon...
+-- Subject: Unit packagekit.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit packagekit.service has begun starting up.
+Mar 04 16:31:29 localhost PackageKit[1645]: daemon start
+Mar 04 16:31:29 localhost gnome-session[1335]: vmware-user: could not open /proc/fs/vmblock/dev
+Mar 04 16:31:29 localhost org.freedesktop.Tracker1[1345]: Creating config directory:'/home/liveuser/.config/tracker'
+Mar 04 16:31:29 localhost gnome-session[1335]: (uint32 1,)
+Mar 04 16:31:29 localhost gnome-session[1335]: Entering running state
+Mar 04 16:31:29 localhost gnome-session[1335]: Failed to play sound: File or data not found
+Mar 04 16:31:29 localhost org.gnome.Caribou.Daemon[1345]: ** (caribou:1561): WARNING **: AT-SPI: Error in GetItems, sender=org.freedesktop.DBus, error=The name :1.5 was not provided by any .service files
+Mar 04 16:31:29 localhost vmusr[1662]: [ warning] [vmtoolsd] The vmusr service needs to run inside a virtual machine.
+Mar 04 16:31:29 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:30 localhost gdm-Xorg-:0[1106]: (EE) FBDEV(0): FBIOBLANK: Invalid argument
+Mar 04 16:31:30 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:30 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_ADD: window 0x1e00001 already in stack
+Mar 04 16:31:30 localhost gnome-session[1335]: (gnome-settings-daemon:1417): color-plugin-WARNING **: failed to get edid: unable to get EDID for output
+Mar 04 16:31:30 localhost colord[1471]: Device added: xrandr-default
+Mar 04 16:31:30 localhost gnome-session[1335]: (gnome-settings-daemon:1417): color-plugin-WARNING **: unable to get EDID for xrandr-default: unable to get EDID for output
+Mar 04 16:31:31 localhost org.gnome.evolution.dataserver.Calendar4[1345]: Bus name 'org.gnome.evolution.dataserver.Calendar4' acquired.
+Mar 04 16:31:31 localhost gnome-session[1335]: Gjs-Message: JS LOG: Unable to mount volume 64 GB Volume: Gio.IOErrorEnum: Error mounting /dev/mmcblk1p1 at /run/media/liveuser/disk: Command-line `mount -t "exfat" -o "uhelper=udisks2,nodev,nosuid,uid=1000,gid=1000,iocharset=utf8,namecase=0,errors=remount-ro,umask=0077" "/dev/mmcblk1p1" "/run/media/liveuser/disk"' exited with non-zero exit status 32: mount: unknown filesystem type 'exfat'
+Mar 04 16:31:31 localhost kernel: SELinux: initialized (dev mmcblk0p4, type fuseblk), uses genfs_contexts
+Mar 04 16:31:31 localhost kernel: SELinux: initialized (dev mmcblk0p3, type fuseblk), uses genfs_contexts
+Mar 04 16:31:31 localhost ntfs-3g[1819]: Version 2014.2.15 integrated FUSE 27
+Mar 04 16:31:31 localhost ntfs-3g[1819]: Mounted /dev/mmcblk0p4 (Read-Write, label "Images", NTFS 3.1)
+Mar 04 16:31:31 localhost ntfs-3g[1819]: Cmdline options: rw,nodev,nosuid,uid=1000,gid=1000,dmask=0077,fmask=0177,uhelper=udisks2
+Mar 04 16:31:31 localhost ntfs-3g[1819]: Mount options: rw,nodev,nosuid,uhelper=udisks2,allow_other,nonempty,relatime,default_permissions,fsname=/dev/mmcblk0p4,blkdev,blksize=4096
+Mar 04 16:31:31 localhost ntfs-3g[1819]: Global ownership and permissions enforced, configuration type 1
+Mar 04 16:31:31 localhost udisksd[1474]: Mounted /dev/mmcblk0p4 at /run/media/liveuser/Images on behalf of uid 1000
+Mar 04 16:31:31 localhost udisksd[1474]: Mounted /dev/mmcblk0p3 at /run/media/liveuser/Windows on behalf of uid 1000
+Mar 04 16:31:31 localhost ntfs-3g[1825]: Version 2014.2.15 integrated FUSE 27
+Mar 04 16:31:31 localhost ntfs-3g[1825]: Mounted /dev/mmcblk0p3 (Read-Write, label "Windows", NTFS 3.1)
+Mar 04 16:31:31 localhost ntfs-3g[1825]: Cmdline options: rw,nodev,nosuid,uid=1000,gid=1000,dmask=0077,fmask=0177,uhelper=udisks2
+Mar 04 16:31:31 localhost ntfs-3g[1825]: Mount options: rw,nodev,nosuid,uhelper=udisks2,allow_other,nonempty,relatime,default_permissions,fsname=/dev/mmcblk0p3,blkdev,blksize=4096
+Mar 04 16:31:31 localhost ntfs-3g[1825]: Global ownership and permissions enforced, configuration type 1
+Mar 04 16:31:31 localhost org.gtk.Private.UDisks2VolumeMonitor[1345]: index_parse.c:191: indx_parse(): error opening /run/media/liveuser/Windows/BDMV/index.bdmv
+Mar 04 16:31:31 localhost org.gtk.Private.UDisks2VolumeMonitor[1345]: index_parse.c:191: indx_parse(): error opening /run/media/liveuser/Windows/BDMV/BACKUP/index.bdmv
+Mar 04 16:31:31 localhost org.gtk.Private.UDisks2VolumeMonitor[1345]: index_parse.c:191: indx_parse(): error opening /run/media/liveuser/Images/BDMV/index.bdmv
+Mar 04 16:31:31 localhost org.gtk.Private.UDisks2VolumeMonitor[1345]: index_parse.c:191: indx_parse(): error opening /run/media/liveuser/Images/BDMV/BACKUP/index.bdmv
+Mar 04 16:31:32 localhost gnome-session[1335]: GNOME Shell started at Wed Mar 04 2015 16:31:29 GMT-0500 (EST)
+Mar 04 16:31:32 localhost kernel: ------------[ cut here ]------------
+Mar 04 16:31:32 localhost kernel: WARNING: CPU: 3 PID: 1825 at kernel/watchdog.c:317 watchdog_overflow_callback+0x9b/0xc0()
+Mar 04 16:31:32 localhost kernel: Watchdog detected hard LOCKUP on cpu 3
+Mar 04 16:31:32 localhost kernel: Modules linked in:
+Mar 04 16:31:32 localhost kernel:  bnep bluetooth fuse ip6t_rpfilter ip6t_REJECT nf_reject_ipv6 xt_conntrack ebtable_nat ebtable_broute bridge stp llc ebtable_filter ebtables ip6table_nat nf_conntrack_ipv6 nf_defrag_ipv6 nf_nat_ipv6 ip6table_mangle ip6table_security ip6table_raw ip6table_filter ip6_tables iptable_nat nf_conntrack_ipv4 nf_defrag_ipv4 nf_nat_ipv4 nf_nat nf_conntrack iptable_mangle iptable_security iptable_raw intel_soc_dts_thermal coretemp kvm_intel kvm snd_soc_sst_byt_rt5640_mach snd_soc_rt5640 snd_soc_sst_baytrail_pcm snd_soc_sst_dsp snd_soc_rl6231 mmc_block snd_soc_core iTCO_wdt iTCO_vendor_support hid_multitouch snd_compress snd_seq uas gpio_keys mei_txe snd_seq_device mei snd_pcm iosf_mbi lpc_ich snd_timer sdhci_acpi snd dw_dmac dw_dmac_core sdhci soc_button_array goodix mmc_core soundcore i2c_hid
+Mar 04 16:31:32 localhost kernel:  int3400_thermal int3403_thermal int3402_thermal acpi_thermal_rel rfkill_gpio pwm_lpss_platform acpi_pad rfkill i2c_designware_platform snd_soc_sst_acpi pwm_lpss i2c_designware_core isofs squashfs i915 i2c_algo_bit drm_kms_helper drm crc32_pclmul crc32c_intel video usb_storage sunrpc loop
+Mar 04 16:31:32 localhost kernel: CPU: 3 PID: 1825 Comm: mount.ntfs Not tainted 3.18.0-1.1awb.i686 #1
+Mar 04 16:31:32 localhost kernel: Hardware name: Notion Ink CN89553G/CN89553G, BIOS 5.6.5 11/24/2014
+Mar 04 16:31:32 localhost kernel:  00000000 bb2fed02 00000000 d2c839ac c0a4bd86 d2c839f0 d2c839e0 c0456222
+Mar 04 16:31:32 localhost kernel:  c0c0b0f0 d2c83a10 00000721 c0c14a2f 0000013d c04f334b 0000013d c04f334b
+Mar 04 16:31:32 localhost kernel:  c04f32b0 000017bc f3658000 d2c839fc c045627e 00000009 d2c839f0 c0c0b0f0
+Mar 04 16:31:32 localhost kernel: Call Trace:
+Mar 04 16:31:32 localhost kernel:  [<c0a4bd86>] dump_stack+0x41/0x52
+Mar 04 16:31:32 localhost kernel:  [<c0456222>] warn_slowpath_common+0x82/0xa0
+Mar 04 16:31:32 localhost kernel:  [<c04f334b>] ? watchdog_overflow_callback+0x9b/0xc0
+Mar 04 16:31:32 localhost kernel:  [<c04f334b>] ? watchdog_overflow_callback+0x9b/0xc0
+Mar 04 16:31:32 localhost kernel:  [<c04f32b0>] ? restart_watchdog_hrtimer+0x50/0x50
+Mar 04 16:31:32 localhost kernel:  [<c045627e>] warn_slowpath_fmt+0x3e/0x60
+Mar 04 16:31:32 localhost kernel:  [<c04f334b>] watchdog_overflow_callback+0x9b/0xc0
+Mar 04 16:31:32 localhost kernel:  [<c052a0cc>] __perf_event_overflow+0xbc/0x390
+Mar 04 16:31:32 localhost kernel:  [<c052a925>] perf_event_overflow+0x15/0x20
+Mar 04 16:31:32 localhost kernel:  [<c041ee24>] intel_pmu_handle_irq+0x224/0x410
+Mar 04 16:31:32 localhost kernel:  [<c06d046b>] ? blk_throtl_bio+0x9b/0x4e0
+Mar 04 16:31:32 localhost kernel:  [<c04836ce>] ? update_curr+0x5e/0x190
+Mar 04 16:31:32 localhost kernel:  [<c0417049>] perf_event_nmi_handler+0x29/0x40
+Mar 04 16:31:32 localhost kernel:  [<c0406e72>] nmi_handle+0x62/0x140
+Mar 04 16:31:32 localhost kernel:  [<c06daabb>] ? cpumask_next_and+0x2b/0x40
+Mar 04 16:31:32 localhost kernel:  [<c040740c>] default_do_nmi+0x3c/0x1c0
+Mar 04 16:31:32 localhost kernel:  [<c0407647>] do_nmi+0xb7/0xf0
+Mar 04 16:31:32 localhost kernel:  [<c0a52747>] nmi_stack_correct+0x2f/0x34
+Mar 04 16:31:32 localhost kernel:  [<c04800d8>] ? thread_group_cputime+0x118/0x180
+Mar 04 16:31:32 localhost kernel:  [<c0480bb7>] ? __enqueue_entity+0x17/0x80
+Mar 04 16:31:32 localhost kernel:  [<c0485cd3>] enqueue_entity+0x323/0xab0
+Mar 04 16:31:32 localhost kernel:  [<c040b738>] ? sched_clock+0x8/0x10
+Mar 04 16:31:32 localhost kernel:  [<c047f6c5>] ? sched_clock_cpu+0x125/0x140
+Mar 04 16:31:32 localhost kernel:  [<c04864ac>] enqueue_task_fair+0x4c/0x7f0
+Mar 04 16:31:32 localhost kernel:  [<c0478728>] enqueue_task+0x28/0x80
+Mar 04 16:31:32 localhost kernel:  [<c0479bd2>] activate_task+0x22/0x30
+Mar 04 16:31:32 localhost kernel:  [<c0479f0c>] ttwu_do_activate.constprop.98+0x2c/0x60
+Mar 04 16:31:32 localhost kernel:  [<c047c518>] try_to_wake_up+0x128/0x2c0
+Mar 04 16:31:32 localhost kernel:  [<c047c720>] default_wake_function+0x10/0x20
+Mar 04 16:31:32 localhost kernel:  [<c048ebdd>] autoremove_wake_function+0x1d/0x40
+Mar 04 16:31:32 localhost kernel:  [<c048e6f5>] __wake_up_common+0x45/0x70
+Mar 04 16:31:32 localhost kernel:  [<c048e886>] __wake_up+0x36/0x50
+Mar 04 16:31:32 localhost kernel:  [<f8d44761>] request_end+0x91/0x140 [fuse]
+Mar 04 16:31:32 localhost kernel:  [<f8d45cfa>] fuse_dev_do_write+0xa6a/0xb80 [fuse]
+Mar 04 16:31:32 localhost kernel:  [<f8d436fb>] ? fuse_copy_do+0x4b/0x80 [fuse]
+Mar 04 16:31:32 localhost kernel:  [<f8d43b4f>] ? fuse_copy_one+0x3f/0x50 [fuse]
+Mar 04 16:31:32 localhost kernel:  [<c053c6b8>] ? set_page_dirty_lock+0x28/0x40
+Mar 04 16:31:32 localhost kernel:  [<f8d4377b>] ? fuse_copy_finish+0x4b/0x70 [fuse]
+Mar 04 16:31:32 localhost kernel:  [<f8d46153>] fuse_dev_write+0x63/0x90 [fuse]
+Mar 04 16:31:32 localhost kernel:  [<c058d4af>] do_sync_readv_writev+0x5f/0xa0
+Mar 04 16:31:32 localhost kernel:  [<c058e875>] do_readv_writev+0x1c5/0x290
+Mar 04 16:31:32 localhost kernel:  [<f8d460f0>] ? fuse_dev_splice_write+0x2e0/0x2e0 [fuse]
+Mar 04 16:31:32 localhost kernel:  [<c058d5fa>] ? do_sync_read+0x6a/0xa0
+Mar 04 16:31:32 localhost kernel:  [<f8d460f0>] ? fuse_dev_splice_write+0x2e0/0x2e0 [fuse]
+Mar 04 16:31:32 localhost kernel:  [<c058d4f0>] ? do_sync_readv_writev+0xa0/0xa0
+Mar 04 16:31:32 localhost kernel:  [<c058e9d4>] vfs_writev+0x34/0x60
+Mar 04 16:31:32 localhost kernel:  [<c058eb35>] SyS_writev+0x55/0xe0
+Mar 04 16:31:32 localhost kernel:  [<c0a5185f>] sysenter_do_call+0x12/0x12
+Mar 04 16:31:32 localhost kernel: ---[ end trace f596c4aa95ce25dd ]---
+Mar 04 16:31:32 localhost kernel: perf interrupt took too long (4413 > 2500), lowering kernel.perf_event_max_sample_rate to 50000
+Mar 04 16:31:33 localhost dbus[818]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Mar 04 16:31:33 localhost systemd[1]: Started PackageKit Daemon.
+-- Subject: Unit packagekit.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit packagekit.service has finished starting up.
+-- 
+-- The start-up result is done.
+Mar 04 16:31:33 localhost abrt-dump-journal-oops[943]: abrt-dump-journal-oops: Found oopses: 1
+Mar 04 16:31:33 localhost abrt-dump-journal-oops[943]: abrt-dump-journal-oops: Creating problem directories
+Mar 04 16:31:33 localhost abrt-server[1885]: Looking for kernel package
+Mar 04 16:31:34 localhost abrt-server[1885]: Kernel package kernel-core-3.18.0-1.1awb.i686 found
+Mar 04 16:31:34 localhost gdm-Xorg-:0[1106]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Mar 04 16:31:34 localhost gdm-Xorg-:0[1106]: > Warning:          Compat map for group 2 redefined
+Mar 04 16:31:34 localhost gdm-Xorg-:0[1106]: >                   Using new definition
+Mar 04 16:31:34 localhost gdm-Xorg-:0[1106]: > Warning:          Compat map for group 3 redefined
+Mar 04 16:31:34 localhost gdm-Xorg-:0[1106]: >                   Using new definition
+Mar 04 16:31:34 localhost gdm-Xorg-:0[1106]: > Warning:          Compat map for group 4 redefined
+Mar 04 16:31:34 localhost gdm-Xorg-:0[1106]: >                   Using new definition
+Mar 04 16:31:34 localhost gdm-Xorg-:0[1106]: Errors from xkbcomp are not fatal to the X server
+Mar 04 16:31:34 localhost dbus[818]: [system] Activating service name='org.freedesktop.problems' (using servicehelper)
+Mar 04 16:31:34 localhost dbus[818]: [system] Successfully activated service 'org.freedesktop.problems'
+Mar 04 16:31:34 localhost abrt-dump-journal-oops[943]: Reported 1 kernel oopses to Abrt
+Mar 04 16:31:35 localhost gnome-session[1335]: Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Mar 04 16:31:35 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:35 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:35 localhost gnome-session[1335]: (abrt:1676): libnotify-CRITICAL **: notify_notification_close: assertion 'NOTIFY_IS_NOTIFICATION (notification)' failed
+Mar 04 16:31:35 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:35 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:35 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:37 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:37 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:39 localhost org.gnome.Caribou.Daemon[1345]: ** (caribou:1943): WARNING **: daemon.vala:102: unhandled editable widget: Search
+Mar 04 16:31:40 localhost polkitd[869]: Operator of unix-session:1 successfully authenticated as unix-user:liveuser to gain TEMPORARY authorization for action org.freedesktop.udisks2.filesystem-mount-system for system-bus-name::1.35 [/usr/libexec/gvfs-udisks2-volume-monitor] (owned by unix-user:liveuser)
+Mar 04 16:31:40 localhost org.gtk.Private.UDisks2VolumeMonitor[1345]: index_parse.c:191: indx_parse(): error opening /run/media/liveuser/disk/BDMV/index.bdmv
+Mar 04 16:31:40 localhost org.gtk.Private.UDisks2VolumeMonitor[1345]: index_parse.c:191: indx_parse(): error opening /run/media/liveuser/disk/BDMV/BACKUP/index.bdmv
+Mar 04 16:31:40 localhost udisksd[1474]: Mounted /dev/loop2 at /run/media/liveuser/disk on behalf of uid 1000
+Mar 04 16:31:41 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:41 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:41 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:41 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:41 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:41 localhost kernel: i2c_hid i2c-FTSC1000:00: i2c_hid_get_input: incomplete report (66/256)
+Mar 04 16:31:42 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:43 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:43 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:43 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:43 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:43 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:44 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:44 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:44 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:44 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:45 localhost org.gnome.Calculator.SearchProvider[1345]: Error: ErrorCode.UNKNOWN_VARIABLE
+Mar 04 16:31:45 localhost org.gnome.Calculator.SearchProvider[1345]: Error: ErrorCode.UNKNOWN_VARIABLE
+Mar 04 16:31:45 localhost org.gnome.Bijiben.SearchProvider[1345]: (bijiben-shell-search-provider:2059): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Mar 04 16:31:45 localhost obexd[2104]: OBEX daemon 5.23
+Mar 04 16:31:45 localhost org.gnome.OnlineMiners.GData[1345]: Gom-Message: Setting scheduler policy to SCHED_IDLE
+Mar 04 16:31:45 localhost org.gnome.evolution.dataserver.AddressBook6[1345]: Bus name 'org.gnome.evolution.dataserver.AddressBook6' acquired.
+Mar 04 16:31:45 localhost org.gnome.OnlineMiners.Owncloud[1345]: Gom-Message: Setting scheduler policy to SCHED_IDLE
+Mar 04 16:31:45 localhost org.gnome.OnlineMiners.Zpj[1345]: Gom-Message: Setting scheduler policy to SCHED_IDLE
+Mar 04 16:31:45 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:45 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:45 localhost gnome-session[1335]: (gnome-shell:1469): mutter-WARNING **: STACK_OP_RAISE_ABOVE: window 0x4001000016 not in stack
+Mar 04 16:31:46 localhost kernel: usb 1-1.1: USB disconnect, device number 3
+Mar 04 16:31:46 localhost gdm-Xorg-:0[1106]: (II) config/udev: removing device HID 1017:1006
+Mar 04 16:31:46 localhost gdm-Xorg-:0[1106]: (II) evdev: HID 1017:1006: Close
+Mar 04 16:31:46 localhost gdm-Xorg-:0[1106]: (II) UnloadModule: "evdev"
+Mar 04 16:31:46 localhost gdm-Xorg-:0[1106]: (II) config/udev: removing device HID 1017:1006
+Mar 04 16:31:46 localhost org.gnome.Caribou.Daemon[1345]: ** (caribou:2187): WARNING **: daemon.vala:102: unhandled editable widget: (null)
+Mar 04 16:31:46 localhost gdm-Xorg-:0[1106]: (II) evdev: HID 1017:1006: Close
+Mar 04 16:31:46 localhost gdm-Xorg-:0[1106]: (II) UnloadModule: "evdev"
+Mar 04 16:31:46 localhost systemd-udevd[726]: error opening USB device 'descriptors' file
+Mar 04 16:31:47 localhost PackageKit[1645]: resolve transaction /1_bbbbdddb from uid 1000 finished with success after 1162ms
+Mar 04 16:31:47 localhost PackageKit[1645]: get-details transaction /2_abdacdaa from uid 1000 finished with success after 6ms
+Mar 04 16:31:47 localhost PackageKit[1645]: get-details transaction /3_ccbdecec from uid 1000 finished with success after 6ms
+Mar 04 16:31:47 localhost PackageKit[1645]: get-details transaction /4_aaccbaec from uid 1000 finished with success after 6ms
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: (gnome-documents:2054): Gjs-WARNING **: JS ERROR: TypeError: this._mainWindow is undefined
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: Application<.getScaleFactor@/usr/share/gnome-documents/js/application.js:666
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: wrapper@resource:///org/gnome/gjs/modules/lang.js:169
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: DocCommon<.updateIconFromType@/usr/share/gnome-documents/js/documents.js:332
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: wrapper@resource:///org/gnome/gjs/modules/lang.js:169
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: DocCommon<.refreshIcon@/usr/share/gnome-documents/js/documents.js:396
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: wrapper@resource:///org/gnome/gjs/modules/lang.js:169
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: DocCommon<.populateFromCursor@/usr/share/gnome-documents/js/documents.js:318
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: wrapper@resource:///org/gnome/gjs/modules/lang.js:169
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: _parent@resource:///org/gnome/gjs/modules/lang.js:131
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: LocalDocument<.populateFromCursor@/usr/share/gnome-documents/js/documents.js:669
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: wrapper@resource:///org/gnome/gjs/modules/lang.js:169
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: DocCommon<._init@/usr/share/gnome-documents/js/documents.js:250
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: wrapper@resource:///org/gnome/gjs/modules/lang.js:169
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: _parent@resource:///org/gnome/gjs/modules/lang.js:131
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: LocalDocument<._init@/usr/share/gnome-documents/js/documents.js:656
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: wrapper@resource:///org/gnome/gjs/modules/lang.js:169
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: _Base.prototype._construct@resource:///org/gnome/gjs/modules/lang.js:110
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: Class.prototype._construct/newClass@resource:///org/gnome/gjs/modules/lang.js:204
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: DocumentManager<.createDocumentFromCursor@/usr/share/gnome-documents/js/documents.js:1152
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: wrapper@resource:///org/gnome/gjs/modules/lang.js:169
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: DocumentManager<.addDocumentFromCursor@/usr/share/gnome-documents/js/documents.js:1158
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: wrapper@resource:///org/gnome/gjs/modules/lang.js:169
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: DocumentManager<._onDocumentCreated/<@/usr/share/gnome-documents/js/documents.js:1122
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: SingleItemJob<._emitCallback@/usr/share/gnome-documents/js/trackerUtils.js:91
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: wrapper@resource:///org/gnome/gjs/modules/lang.js:169
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: SingleItemJob<._onCursorNext@/usr/share/gnome-documents/js/trackerUtils.js:86
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: wrapper@resource:///org/gnome/gjs/modules/lang.js:169
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: start@/usr/share/gnome-documents/js/main.js:30
+Mar 04 16:31:52 localhost org.gnome.Documents[1345]: @<command line>:1
+Mar 04 16:31:52 localhost kernel: usb 1-1.1: new low-speed USB device number 5 using xhci_hcd
+Mar 04 16:31:52 localhost kernel: usb 1-1.1: New USB device found, idVendor=1017, idProduct=1006
+Mar 04 16:31:52 localhost kernel: usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Mar 04 16:31:52 localhost kernel: usb 1-1.1: ep 0x81 - rounding interval to 64 microframes, ep desc says 80 microframes
+Mar 04 16:31:52 localhost kernel: usb 1-1.1: ep 0x82 - rounding interval to 64 microframes, ep desc says 80 microframes
+Mar 04 16:31:52 localhost kernel: input: HID 1017:1006 as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/0003:1017:1006.0004/input/input7
+Mar 04 16:31:52 localhost kernel: hid-generic 0003:1017:1006.0004: input,hidraw0: USB HID v1.10 Keyboard [HID 1017:1006] on usb-0000:00:14.0-1.1/input0
+Mar 04 16:31:52 localhost kernel: byt-rt5640 byt-rt5640: ASoC: CPU DAI baytrail-pcm-audio not registered
+Mar 04 16:31:52 localhost kernel: platform byt-rt5640: Driver byt-rt5640 requests probe deferral
+Mar 04 16:31:52 localhost kernel: input: HID 1017:1006 as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.1/0003:1017:1006.0005/input/input8
+Mar 04 16:31:52 localhost kernel: hid-generic 0003:1017:1006.0005: input,hidraw1: USB HID v1.10 Mouse [HID 1017:1006] on usb-0000:00:14.0-1.1/input1
+Mar 04 16:31:52 localhost kernel: byt-rt5640 byt-rt5640: ASoC: CPU DAI baytrail-pcm-audio not registered
+Mar 04 16:31:52 localhost kernel: platform byt-rt5640: Driver byt-rt5640 requests probe deferral
+Mar 04 16:31:52 localhost mtp-probe[2213]: checking bus 1, device 5: "/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1"
+Mar 04 16:31:52 localhost mtp-probe[2213]: bus: 1, device: 5 was not an MTP device
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (II) config/udev: Adding input device HID 1017:1006 (/dev/input/mouse0)
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (II) No input driver specified, ignoring this device.
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (II) This device may have been added with another device file.
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (II) config/udev: Adding input device HID 1017:1006 (/dev/input/event2)
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: Applying InputClass "evdev pointer catchall"
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: Applying InputClass "evdev keyboard catchall"
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (II) Using input driver 'evdev' for 'HID 1017:1006'
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: always reports core events
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) evdev: HID 1017:1006: Device: "/dev/input/event2"
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Vendor 0x1017 Product 0x1006
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Found 9 mouse buttons
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Found scroll wheel(s)
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Found relative axes
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Found x and y relative axes
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Found absolute axes
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (II) evdev: HID 1017:1006: Forcing absolute x/y axes to exist.
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Found keys
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (II) evdev: HID 1017:1006: Configuring as mouse
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (II) evdev: HID 1017:1006: Configuring as keyboard
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (II) evdev: HID 1017:1006: Adding scrollwheel support
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) evdev: HID 1017:1006: YAxisMapping: buttons 4 and 5
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) evdev: HID 1017:1006: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.1/0003:1017:1006.0005/input/input8/event2"
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (II) XINPUT: Adding extended input device "HID 1017:1006" (type: KEYBOARD, id 6)
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_rules" "evdev"
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_model" "pc104"
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_layout" "us"
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (II) evdev: HID 1017:1006: initialized for relative axes.
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (WW) evdev: HID 1017:1006: ignoring absolute axes.
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: (accel) keeping acceleration scheme 1
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: (accel) acceleration profile 0
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: (accel) acceleration factor: 2.000
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: (accel) acceleration threshold: 4
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (II) config/udev: Adding input device HID 1017:1006 (/dev/input/event1)
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: Applying InputClass "evdev keyboard catchall"
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (II) Using input driver 'evdev' for 'HID 1017:1006'
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) HID 1017:1006: always reports core events
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) evdev: HID 1017:1006: Device: "/dev/input/event1"
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Vendor 0x1017 Product 0x1006
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (--) evdev: HID 1017:1006: Found keys
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (II) evdev: HID 1017:1006: Configuring as keyboard
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/0003:1017:1006.0004/input/input7/event1"
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (II) XINPUT: Adding extended input device "HID 1017:1006" (type: KEYBOARD, id 7)
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_rules" "evdev"
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_model" "pc104"
+Mar 04 16:31:52 localhost gdm-Xorg-:0[1106]: (**) Option "xkb_layout" "us"
+Mar 04 16:31:56 localhost systemd[1]: Starting Stop Read-Ahead Data Collection...
+-- Subject: Unit systemd-readahead-done.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-readahead-done.service has begun starting up.
+Mar 04 16:31:57 localhost systemd[1]: Started Stop Read-Ahead Data Collection.
+-- Subject: Unit systemd-readahead-done.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-readahead-done.service has finished starting up.
+-- 
+-- The start-up result is done.
